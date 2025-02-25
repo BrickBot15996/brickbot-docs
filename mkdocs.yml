@@ -1,0 +1,60 @@
+site_name: BrickBot Guide
+site_url: https://brickbot-guide.com/
+
+repo_name: BrickBot Guide
+repo_url: https://github.com/brickbotcnu/
+
+# plugins:
+#   - git-revision-date-localized:
+#       enable_creation_date: true
+#       format: "YYYY-MM-DD HH:mm"
+#       locale: "en"
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - search
+    - search.suggest
+    - navigation.footer
+    - offline
+  font:
+    text: "Inter"
+    code: "JetBrains Mono"
+  language: en
+  favicon: media/brick_yellow.png
+  logo: media/brick_yellow.png
+  palette:
+    scheme: light
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: light
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: dark
+    #   toggle:
+    #     icon: material/weather-night
+    #     name: Switch to light mode
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/brickbotcnu
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/brickbotcnu
+    - icon: fontawesome/solid/envelope
+      link: mailto:brickbot@liceulunirea.ro
+    - icon: fontawesome/solid/globe
+      link: https://brickbot.ro
+  scope: /
+
+extra_css:
+  - styles/theme-switch.css # Custom CSS to switch themes

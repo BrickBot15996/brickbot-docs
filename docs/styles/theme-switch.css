@@ -1,0 +1,51 @@
+[data-md-color-scheme="light"] {
+  .md-header__button.md-logo img {
+    content: url("../media/brick_black.png");
+  }
+  --md-primary-fg-color: #ffd100;
+  --md-primary-bg-color: #000000;
+
+  --md-typeset-a-color: #000000;
+
+  --md-accent-fg-color: #ffd100;
+
+  --md-default-bg-color: #ffffff;
+
+  --md-code-fg-color: #090909;
+  --md-code-bg-color: #f2f2f2;
+
+  --md-footer-fg-color: #ffffff;
+  --md-footer-fg-color--light: #000000;
+  --md-footer-bg-color: #ffd100 !important;
+}
+
+[data-md-color-scheme="dark"] {
+  .md-header__button.md-logo img {
+    content: url("../media/brick_yellow.png");
+  }
+  --md-primary-fg-color: #000000;
+  --md-primary-bg-color: #ffd100;
+
+  --md-typeset-color: #f5d54a;
+  --md-typeset-a-color: #f5d54a;
+  --md-typeset-de1-color: #f5d54a;
+  --md-typeset-ins-color: #f5d54a;
+  --md-typeset-kbd-color: #f5d54a;
+  --md-typeset-mark-color: #f5d54a;
+  --md-content_inner-color: #f5d54a;
+
+  --md-accent-fg-color--transparent: #f5d54a;
+  --md-accent-bg-color: #ffd100;
+
+  --md-default-fg-color: #f5d54a;
+  --md-default-fg-color--light: #ffe880;
+  --md-default-fg-color--lighter: #f5d54a;
+  --md-default-bg-color: #090909;
+
+  --md-code-fg-color: #ffd000cd;
+  --md-code-bg-color: #050505;
+
+  --md-footer-fg-color: #ffeea2;
+  --md-footer-fg-color--light: #ffd100;
+  --md-footer-bg-color: #000000 !important;
+}
