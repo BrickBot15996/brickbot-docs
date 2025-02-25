@@ -34,17 +34,16 @@ theme:
   favicon: media/brick_yellow.png
   logo: media/brick_yellow.png
   palette:
-    scheme: light
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: light
-    #   toggle:
-    #     icon: material/weather-sunny
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: dark
-    #   toggle:
-    #     icon: material/weather-night
-    #     name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: dark
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 extra:
   generator: false
@@ -61,7 +60,7 @@ extra:
 extra_css:
   - styles/theme-switch.css # Custom CSS to switch themes
 nav:
-  - Acasă: home/index.md
+  - Acasă: index.md
   - Introducere:
       - Ce este FTC?: intro/ce-este-ftc.md
       - Abordarea părții tehnice: intro/abordarea-tehnica.md
