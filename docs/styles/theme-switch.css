@@ -3,20 +3,80 @@
     content: url("../media/brick_black.png");
   }
   --md-primary-fg-color: #ffd100;
+  /* --md-primary-fg-color--light: red; */
+  /* --md-primary-fg-color--dark: red; */
   --md-primary-bg-color: #000000;
-
-  --md-typeset-a-color: #000000;
+  --md-primary-bg-color--light: #000000;
 
   --md-accent-fg-color: #ffd100;
+  /* --md-accent-fg-color--transparent: red; */
+  /* --md-accent-bg-color: red; */
+  /* --md-accent-bg-color--light: red; */
 
+  --md-default-fg-color: #000000;
+  --md-default-fg-color--light: #000000;
+  /* --md-default-fg-color--lighter: red; */
+  /* --md-default-fg-color--lightest: red; */
   --md-default-bg-color: #ffffff;
+  /* --md-default-bg-color--light: red; */
+  /* --md-default-bg-color--lighter: red; */
+  /* --md-default-bg-color--lightest: red; */
 
-  --md-code-fg-color: #090909;
-  --md-code-bg-color: #f2f2f2;
+  --md-code-fg-color: hsla(200, 18%, 26%, 1);
+  --md-code-bg-color: hsla(200, 0%, 96%, 1);
 
-  --md-footer-fg-color: #ffffff;
-  --md-footer-fg-color--light: #000000;
-  --md-footer-bg-color: #ffd100 !important;
+  --md-code-hl-color: hsla(#{hex2hsl($clr-blue-a200)}, 1);
+  --md-code-hl-color--light: hsla(#{hex2hsl($clr-blue-a200)}, 0.1);
+
+  --md-code-hl-number-color: hsla(0, 67%, 50%, 1);
+  --md-code-hl-special-color: hsla(340, 83%, 47%, 1);
+  --md-code-hl-function-color: hsla(291, 45%, 50%, 1);
+  --md-code-hl-constant-color: hsla(250, 63%, 60%, 1);
+  --md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
+  --md-code-hl-string-color: hsla(150, 63%, 30%, 1);
+  --md-code-hl-name-color: var(--md-code-fg-color);
+  --md-code-hl-operator-color: var(--md-default-fg-color--light);
+  --md-code-hl-punctuation-color: var(--md-default-fg-color--light);
+  --md-code-hl-comment-color: var(--md-default-fg-color--light);
+  --md-code-hl-generic-color: var(--md-default-fg-color--light);
+  --md-code-hl-variable-color: var(--md-default-fg-color--light);
+
+  --md-typeset-color: var(--md-default-fg-color);
+
+  --md-typeset-a-color: var(--md-primary-fg-color);
+
+  /* --md-typeset-del-color: red; */
+  /* --md-typeset-ins-color: hsla(150, 90%, 44%, 0.15); */
+
+  /* --md-typeset-kbd-color: red;
+  --md-typeset-kbd-accent-color: red;
+  --md-typeset-kbd-border-color: red; */
+
+  /* --md-typeset-mark-color: red; */
+
+  /* --md-typeset-table-color: red;
+  --md-typeset-table-color--light: red; */
+
+  /*--md-admonition-fg-color: red;
+  --md-admonition-bg-color: red;
+
+  --md-warning-fg-color: red;
+  --md-warning-bg-color: red;*/
+
+  --md-footer-fg-color: #000000;
+  --md-footer-fg-color--light: #ffffff;
+  --md-footer-fg-color--lighter: #5e5e5e;
+  --md-footer-bg-color: #ffffff;
+  --md-footer-bg-color--dark: #ffd100;
+
+  /* --md-shadow-z1: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
+    0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.1);
+
+  --md-shadow-z2: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.1),
+    0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.25);
+
+  --md-shadow-z3: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
+    0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.35); */
 }
 
 [data-md-color-scheme="dark"] {

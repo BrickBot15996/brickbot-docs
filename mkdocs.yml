@@ -1,12 +1,14 @@
-site_name: BrickBot Guide
+site_name: Ghid Tehnic BrickBot
 site_url: https://brickbot-guide.com/
 
-repo_name: BrickBot Guide
-repo_url: https://github.com/brickbotcnu/
+repo_url: https://github.com/BrickBot15996/brickbot-docs
+repo_name: brickbot-docs
 
 # plugins:
 #   - git-revision-date-localized:
 #       enable_creation_date: true
+#       fallback_to_build_date: true
+#       type: date
 #       format: "YYYY-MM-DD HH:mm"
 #       locale: "en"
 
@@ -14,6 +16,7 @@ theme:
   name: material
   features:
     - navigation.instant
+    - navigation.sections
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tracking
@@ -27,7 +30,7 @@ theme:
   font:
     text: "Inter"
     code: "JetBrains Mono"
-  language: en
+  language: ro
   favicon: media/brick_yellow.png
   logo: media/brick_yellow.png
   palette:
@@ -54,7 +57,21 @@ extra:
       link: mailto:brickbot@liceulunirea.ro
     - icon: fontawesome/solid/globe
       link: https://brickbot.ro
-  scope: /
 
 extra_css:
   - styles/theme-switch.css # Custom CSS to switch themes
+nav:
+  - Acasă: home/index.md
+  - Introducere:
+      - Ce este FTC?: intro/ce-este-ftc.md
+      - Abordarea părții tehnice: intro/abordarea-tehnica.md
+  - CAD:
+      - Ce este CAD?: cad/cad.md
+      - Onshape: cad/onshape.md
+  - Mecanică:
+      - toBeCompleted: assembly/idkyet.md
+  - Programare:
+      - Android Studio: programming/android-studio.md
+      - Java: programming/java.md
+      - SimplicityFTC: programming/simplicityftc.md
+      - Alte resurse: programming/other-resources.md
