@@ -15,6 +15,7 @@ repo_name: brickbot-docs
 theme:
   name: material
   features:
+    - navigation.tabs
     - navigation.instant
     - navigation.sections
     - navigation.instant.prefetch
@@ -63,7 +64,7 @@ nav:
   - Acasă: index.md
   - Introducere:
       - Ce este FTC?: intro/ce-este-ftc.md
-      - Abordarea părții tehnice: intro/abordarea-tehnica.md
+      - Mentalitate de succes: intro/mentalitatea-castigatoare.md
   - CAD:
       - Ce este CAD?: cad/cad.md
       - Onshape: cad/onshape.md
