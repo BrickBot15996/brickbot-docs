@@ -7,7 +7,7 @@ ingineria, programarea, colaborarea și creativitatea!
 
 <hr>
 
-## **Portofoliul și interviurile**
+<h2><b>Portofoliul și interviurile</b></h2>
 
 FTC nu este doar despre cât de bine se descurcă robotul tău pe teren. Fiecare  
 echipă trebuie să creeze un **[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc)**, unde documentează cum a fost construit  
@@ -17,7 +17,7 @@ plus, echipele participă la un **[interviu](https://youtu.be/BiNt94HO9FU?si=3he
 
 <hr>
 
-## **Outreach și impact în comunitate**
+<h2><b>Outreach și impact în comunitate</b></h2>
 
 FTC înseamnă și **inspirație**! Echipele nu doar concurează, ci și ajută comunitatea prin  
 evenimente de outreach. Fie că organizezi ateliere pentru copii, prezinți robotul la  
@@ -27,7 +27,7 @@ este doar o competiție, ci o **mișcare globală de a aduce știința și tehno
 
 <hr>
 
-## **De ce să participi?**
+<h2><b>De ce să participi?</b></h2>
 
 FTC te învață cum să gândești ca un inginer, să lucrezi în echipă și să găsești soluții  
 la **probleme reale**. Indiferent dacă îți place programarea, mecanica sau aspectele  
@@ -42,3 +42,5 @@ Mai mult decât atât, experiența din FTC îți poate deschide multe **oportuni
 FTC este **mai mult decât o competiție** — este o rampă de lansare pentru pasionații de tehnologie!
 
 <hr>
+
+<h2><b>Comunitatea din România</b></h2>

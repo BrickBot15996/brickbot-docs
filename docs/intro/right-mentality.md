@@ -9,7 +9,7 @@ revenit.
 
 <hr>
 
-## **Respectă-ți munca**
+<h2><b>Respectă-ți munca</b></h2>
 
 Cel mai important lucru este să fii mândru de ceea ce faci. Fiecare element trebuie să fie  
 gândit și implementat la **cel mai înalt standard** pe care îl poți atinge.
@@ -22,7 +22,7 @@ mereu un avantaj.
 
 <hr>
 
-## **[Principiul KISS](https://en.wikipedia.org/wiki/KISS_principle) – *Keep It Simple, Stupid!*🤓**
+<h2><b><a href="https://en.wikipedia.org/wiki/KISS_principle"> Principiul KISS</a> – <i>Keep It Simple, Stupid!</i>🤓</b></h2>
 
 În FTC, **simplitatea** este cel mai mare avantaj. Un mecanism complicat, deseori, înseamnă  
 doar **mai multe posibile puncte de eșuare**.
@@ -34,7 +34,7 @@ neconsecvent. În FTC, doar **fiabilitatea poate aduce rezultate**.
 
 <hr>
 
-## **Gândirea analitică**
+<h2><b>Gândirea analitică</b></h2>
 
 FTC este despre **compromisuri**. Nu poți avea un robot care poate face **orice**. Fiecare  
 decizie trebuie să fie luată cu o **perspectivă obiectivă**, analizând avantajele și  
@@ -42,19 +42,19 @@ dezavantajele fiecărei variante.
 
 **Cum iei o decizie bună?**
 
-- Definește problema clar – Ce trebuie să rezolvăm?
-- Gândește-te la toate opțiunile – Nu te opri la prima idee. **Încearcă puțin din toate**.
-- Analizează argumentele pro și contra – Este soluția eficientă? Ușor de implementat?  
+- Definește problema clar – ce trebuie să rezolvăm?
+- Gândește-te la toate opțiunile – nu te opri la prima idee. **Încearcă puțin din toate**.
+- Analizează argumentele pro și contra – este soluția eficientă? Ușor de implementat?  
   Fiabilă?
-- Ia o decizie informată – Nu pentru că "pare șmecheră", ci pentru că este cea mai bună  
+- Ia o decizie informată – nu pentru că "pare șmecheră", ci pentru că este cea mai bună  
   alegere.
 
 <hr>
 
-## **Iterațiile**
+<h2><b>Iterațiile</b></h2>
 
-Orice robot este **o lucrare în progres**. Prima versiune nu va fi **niciodată** perfectă, dar dacă o  
-ai gata **devreme**, ai timp să o îmbunătățești.
+Orice robot este **o lucrare în progres**. Prima versiune nu va fi **niciodată** perfectă, dar dacă  
+o ai gata **devreme**, ai timp să o îmbunătățești.
 
 **Planul ideal:**
 
@@ -68,7 +68,7 @@ cu un produs final puțin testat, departe de potențialul său.
 
 <hr>
 
-## **Comunicarea între departamente**
+<h2><b>Comunicarea între departamente</b></h2>
 
 FTC **nu** este o competiție individuală. Un robot bun este rezultatul unei **colaborări**
 **eficiente** între mecanică și programare.
@@ -77,26 +77,26 @@ FTC **nu** este o competiție individuală. Un robot bun este rezultatul unei **
 
 <hr>
 
-## **Antrenamentul driverilor**
+<h2><b>Antrenamentul driverilor</b></h2>
 
-Robotul cel mai bun **nu** câștigă mereu. Trăsătura definitorie a unui robot de succes este, de  
-fapt, **persoana care îl controlează**.
+Robotul cel mai bun **nu** câștigă mereu. Trăsătura definitorie a unui robot de succes este,  
+de fapt, **persoana care îl controlează**.
 
 > Robotul trebuie să fie făcut pentru driver, nu driverul pentru robot.
 
 - Analizează jocul din perspectiva unui driver - În momentul alegerii strategiei robotului  
   pentru un sezon, trebuie aleasă abordarea care oferă **cea mai mică marjă de eroare**  
   driverului.
-- Ascultă **feedback-ul** driverilor – Dacă spun că ceva este incomod, trebuie ajustat.
-- Antrenează-te în **condiții reale** – Simulează meciuri, joacă agresiv, testează strategii.
-- Coordonare între driver și coach – Comunicarea rapidă și clară este esențială.
+- Ascultă **feedback-ul** driverilor – dacă spun că ceva este incomod, trebuie ajustat.
+- Antrenează-te în **condiții reale** – simulează meciuri, joacă agresiv, testează strategii.
+- Coordonare între driver și coach – comunicarea rapidă și clară este esențială.
 
 > Un robot mediocru cu un driver bun va câștiga împotriva unui robot bun cu un driver  
 > slab.
 
 <hr>
 
-## **Prepare for the worst, hope for the best**
+<h2><b>Prepare for the worst, hope for the best</b></h2>
 
 În FTC, tot ce poate merge prost… **va merge** prost. Dacă nu ai avut probleme până acum,  
 înseamnă că încă nu ai testat suficient.
@@ -104,7 +104,7 @@ fapt, **persoana care îl controlează**.
 **Ce trebuie să faci?**
 
 - Gândește-te la orice problemă posibilă și pregătește soluții din timp.
-- Testează în condiții dificile – Simulează scenarii **extreme**.
-- **Nu** te baza pe noroc - Șansa să fie mereu de partea ta este infimă.
+- Testează în condiții dificile – simulează scenarii **extreme**.
+- **Nu** te baza pe noroc - șansa să fie mereu de partea ta este infimă.
 
 <hr>

@@ -16,6 +16,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.sections
     - navigation.instant.prefetch
@@ -54,7 +55,7 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/brickbotcnu
     - icon: fontawesome/solid/envelope
-      link: mailto:brickbot@liceulunirea.ro
+      link: mailto:brickbot@liceulunirea.ro # FIXME: FIXXXXXXXXXXXXXXXXXXXXXX
     - icon: fontawesome/solid/globe
       link: https://brickbot.ro
 
@@ -63,13 +64,19 @@ extra_css:
 nav:
   - Acasă: index.md
   - Introducere:
-      - Ce este FTC?: intro/ce-este-ftc.md
-      - Mentalitate de succes: intro/mentalitatea-castigatoare.md
-  - CAD:
-      - Ce este CAD?: cad/cad.md
+      - Ce este FTC?: intro/what-is-ftc.md
+      - Mentalitate de succes: intro/right-mentality.md
+  - Proiectare 3D:
+      - Ce este Proiectarea 3D?: cad/cad.md
       - Onshape: cad/onshape.md
+      - Printarea 3D: cad/3d-printing.md
   - Mecanică:
-      - toBeCompleted: assembly/idkyet.md
+      - Concepte necesare: assembly/basic-concepts.md
+      - Furnizori principali: assembly/vendors.md
+      - Componentele și cum le folosim: assembly/parts.md
+      - Mecanisme des întâlnite: assembly/mechanisms.md
+      - Cum se concepe un robot?: assembly/robot.md
+      - Cablare: assembly/wiring.md
   - Programare:
       - Android Studio: programming/android-studio.md
       - Java: programming/java.md
