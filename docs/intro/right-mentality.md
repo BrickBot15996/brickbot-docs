@@ -1,110 +1,58 @@
 # **Mentalitate de succes**
 
-FTC nu este doar despre roboți. Este despre cum **gândești**, cum **iei decizii** și cum  
-**colaborezi**. Nu e suficient să ai o idee bună—trebuie să știi cum să o **transformi** într-un  
-robot competitiv. Atașat [aici](https://www.youtube.com/watch?v=qIUIWsuzY8Q&t=250s) este un workshop în care echipa [12993 RoboKings Aurum](https://ftcscout.org/teams/12993)  
-explică foarte bine cum poți extrage potențialul maxim din robotul tău. Unele concepte  
-sunt mai avansate decât punctul acesta al ghidului, însă e un filmuleț asupra căruia merită  
-revenit.
+- explain why the right mindset is so important and how the wrong mindset can ruin the experience for everyone
+<!-- Probably should shift this to the end of the document
+[aici](https://www.youtube.com/watch?v=qIUIWsuzY8Q&t=250s) este un workshop în care echipa [12993 RoboKings Aurum](https://ftcscout.org/teams/12993)-->
 
 <hr>
 
 <h2><b>Respectă-ți munca</b></h2>
 
-Cel mai important lucru este să fii mândru de ceea ce faci. Fiecare element trebuie să fie  
-gândit și implementat la **cel mai înalt standard** pe care îl poți atinge.
-
-> Întreabă-te mereu: _Există o variantă mai bună? Pot îmbunătăți acest element fără un efort uriaș?_
-
-Dacă răspunsul este "da", atunci probabil ar trebui să o și faci. FTC este un context în care  
-**lucrurile mici** fac diferența, iar o echipă care își **îmbunătățește constant munca** va avea  
-mereu un avantaj.
+- talk about the importance of work being done right, not just done for the sake of getting it done
+- mention how much of a difference even small things can make in such a tight and competitive environment
 
 <hr>
 
 <h2><b><a href="https://en.wikipedia.org/wiki/KISS_principle"> Principiul KISS</a> – <i>Keep It Simple, Stupid!</i>🤓</b></h2>
 
-În FTC, **simplitatea** este cel mai mare avantaj. Un mecanism complicat, deseori, înseamnă  
-doar **mai multe posibile puncte de eșuare**.
+- most successful robots are simple and efficient
+- when you know what you can expect from your robot, the performance reaches a whole new level
 
-> _Dacă două soluții fac același lucru, **alege-o pe cea mai simplă.**_
-
-Un robot **fiabil** și ușor de folosit va performa mai bine decât unul sofisticat dar  
-neconsecvent. În FTC, doar **fiabilitatea poate aduce rezultate**.
+> _An idiot admires complexity, a genius admires simplicity._
 
 <hr>
 
 <h2><b>Gândirea analitică</b></h2>
 
-FTC este despre **compromisuri**. Nu poți avea un robot care poate face **orice**. Fiecare  
-decizie trebuie să fie luată cu o **perspectivă obiectivă**, analizând avantajele și  
-dezavantajele fiecărei variante.
-
-**Cum iei o decizie bună?**
-
-- Definește problema clar – ce trebuie să rezolvăm?
-- Gândește-te la toate opțiunile – nu te opri la prima idee. **Încearcă puțin din toate**.
-- Analizează argumentele pro și contra – este soluția eficientă? Ușor de implementat?  
-  Fiabilă?
-- Ia o decizie informată – nu pentru că "pare șmecheră", ci pentru că este cea mai bună  
-  alegere.
+- all ftc is is a series of tradeoffs. knowing how to make the right decisions is key to succeeding
+- objective thinking and clear benchmarks are gonna do you well
 
 <hr>
 
 <h2><b>Iterațiile</b></h2>
 
-Orice robot este **o lucrare în progres**. Prima versiune nu va fi **niciodată** perfectă, dar dacă  
-o ai gata **devreme**, ai timp să o îmbunătățești.
-
-**Planul ideal:**
-
-1. Concepe prima versiune **cât mai repede posibil**.
-2. Testează, observă problemele și notează-le.
-3. Rezolvă, ajustează, optimizează.
-4. **Repetă** procesul până când ai un robot stabil și performant.
-
-Echipele care lasă robotul pe ultima sută de metri nu mai au timp să facă iterații și rămân  
-cu un produs final puțin testat, departe de potențialul său.
+- nothing is perfect the first time, it's on you to allow yourself the time to make improvements and to find said improvements
+- having a clear way of judging your level of performance and what can be improved is important
 
 <hr>
 
 <h2><b>Comunicarea între departamente</b></h2>
 
-FTC **nu** este o competiție individuală. Un robot bun este rezultatul unei **colaborări**
-**eficiente** între mecanică și programare.
-
-**_To be added_**
+- people need to constantly communicate and make decisions to simplify the process for eachother
 
 <hr>
 
 <h2><b>Antrenamentul driverilor</b></h2>
 
-Robotul cel mai bun **nu** câștigă mereu. Trăsătura definitorie a unui robot de succes este,  
-de fapt, **persoana care îl controlează**.
-
-> Robotul trebuie să fie făcut pentru driver, nu driverul pentru robot.
-
-- Analizează jocul din perspectiva unui driver - În momentul alegerii strategiei robotului  
-  pentru un sezon, trebuie aleasă abordarea care oferă **cea mai mică marjă de eroare**  
-  driverului.
-- Ascultă **feedback-ul** driverilor – dacă spun că ceva este incomod, trebuie ajustat.
-- Antrenează-te în **condiții reale** – simulează meciuri, joacă agresiv, testează strategii.
-- Coordonare între driver și coach – comunicarea rapidă și clară este esențială.
-
-> Un robot mediocru cu un driver bun va câștiga împotriva unui robot bun cu un driver  
-> slab.
+- driver feedback is holy and it should be listened to
+- robots have to be tailored to the driver not the other way around. optimal performance comes from a comfortable driver
+- practice leads to muscle memory and muscle memory leads to better performance
 
 <hr>
 
 <h2><b>Prepare for the worst, hope for the best</b></h2>
 
-În FTC, tot ce poate merge prost… **va merge** prost. Dacă nu ai avut probleme până acum,  
-înseamnă că încă nu ai testat suficient.
-
-**Ce trebuie să faci?**
-
-- Gândește-te la orice problemă posibilă și pregătește soluții din timp.
-- Testează în condiții dificile – simulează scenarii **extreme**.
-- **Nu** te baza pe noroc - șansa să fie mereu de partea ta este infimă.
+- always expect the worst to happen
+- what can be prevented should be prevented
 
 <hr>

@@ -60,7 +60,7 @@ extra:
       link: https://brickbot.ro
 
 extra_css:
-  - styles/theme-switch.css # Custom CSS to switch themes
+  - styles/stylesheet.css # Custom CSS to switch themes
 nav:
   - Acasă: index.md
   - Introducere:
@@ -73,12 +73,15 @@ nav:
   - Mecanică:
       - Concepte necesare: assembly/basic-concepts.md
       - Furnizori principali: assembly/vendors.md
-      - Componentele și cum le folosim: assembly/parts.md
+      - Componentele electronice: assembly/components.md
       - Mecanisme des întâlnite: assembly/mechanisms.md
       - Cum se concepe un robot?: assembly/robot.md
+      - Cum îți faci robotul ușor de condus?: assembly/driveable-robot.md
       - Cablare: assembly/wiring.md
   - Programare:
       - Android Studio: programming/android-studio.md
       - Java: programming/java.md
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
+  - Portofoliul Tehnic:
+      - Ce ar trebui să conțină un portofoliu tehnic?: portfolio/guidelines.md

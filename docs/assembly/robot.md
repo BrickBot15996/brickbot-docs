@@ -11,13 +11,14 @@
 <hr>
 
 <h2><b>Cum faci alegerile potrivite</b></h2>
+- parameters used to judge things:
+    - reliability
+    - speed
+    - weight
+    - current consumption
+    - complexity
+    - necessary precision to work
 - better explain the part about tradeoffs and give a real example
 - focus on simplicity again
-- 
-<hr>
 
-<h2><b>La ce să ai grijă</b></h2>
-- fuck complexity again, time is priceless
-- practice practice practice
-- clearances
 <hr>

@@ -1,4 +1,4 @@
-# **Componentele și cum le folosim**
+# **Componentele electronice**
 
 <hr>
 

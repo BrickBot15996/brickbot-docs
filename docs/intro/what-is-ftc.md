@@ -1,46 +1,33 @@
 # **Ce este FTC?**
 
-**[FIRST Tech Challenge](https://www.firstinspires.org/resource-library/ftc/game-and-season-info)** este o competiție de robotică unde echipe de elevi  
-proiectează, construiesc și programează un robot pentru a îndeplini sarcini într-un  
-[joc anual](https://ftchistory.dogbuilt.net/). Dar FTC **nu înseamnă doar roboți** — este o experiență completă care combină  
-ingineria, programarea, colaborarea și creativitatea!
+<!--[FIRST Tech Challenge](https://www.firstinspires.org/resource-library/ftc/game-and-season-info)-->
+
+- blabber about the ftc community
 
 <hr>
 
 <h2><b>Portofoliul și interviurile</b></h2>
 
-FTC nu este doar despre cât de bine se descurcă robotul tău pe teren. Fiecare  
-echipă trebuie să creeze un **[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc)**, unde documentează cum a fost construit  
-și programat robotul, ce decizii au fost luate și ce probleme au fost rezolvate. În  
-plus, echipele participă la un **[interviu](https://youtu.be/BiNt94HO9FU?si=3heRQbjF9qZ02dCw&t=369)** cu juriul, unde trebuie să își prezinte munca  
-și să răspundă la întrebări.
+- explain what they are and why they are important
+- attach portfolio platforms and interview video example
+<!--[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc) [interviu](https://youtu.be/BiNt94HO9FU?si=3heRQbjF9qZ02dCw&t=369)-->
 
 <hr>
 
 <h2><b>Outreach și impact în comunitate</b></h2>
 
-FTC înseamnă și **inspirație**! Echipele nu doar concurează, ci și ajută comunitatea prin  
-evenimente de outreach. Fie că organizezi ateliere pentru copii, prezinți robotul la  
-târguri de știință sau colaborezi cu alte echipe, aceste activități arată că FTC nu  
-este doar o competiție, ci o **mișcare globală de a aduce știința și tehnologia mai**  
-**aproape de oameni**.
+- dont really know what to say here, ask someone else to give me pointers
 
 <hr>
 
 <h2><b>De ce să participi?</b></h2>
 
-FTC te învață cum să gândești ca un inginer, să lucrezi în echipă și să găsești soluții  
-la **probleme reale**. Indiferent dacă îți place programarea, mecanica sau aspectele  
-non-tehnice, vei găsi un loc unde **să te dezvolți**.
-
-Mai mult decât atât, experiența din FTC îți poate deschide multe **oportunități**:  
-🤖 **Experiență practică valoroasă** – Tot ce înveți în FTC, de la programare la gestionarea  
- proiectelor, te pregătește pentru **cariere în inginerie, IT sau management**.  
-🌍 **Networking și conexiuni** – Vei avea ocazia să interacționezi cu persoane din industrie  
- (mentori și profesori) și alți elevi pasionați de tehnologie.
-
-FTC este **mai mult decât o competiție** — este o rampă de lansare pentru pasionații de tehnologie!
+- focus on the useful skills you gain and try to give real examples of how ftc has helped other people
 
 <hr>
 
 <h2><b>Comunitatea din România</b></h2>
+
+- emphasize how good Romania is, how hard this region is and how much work and attention to detail is necessary
+
+<hr>
