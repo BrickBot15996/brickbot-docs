@@ -81,6 +81,7 @@ nav:
   - Programare:
       - Android Studio: programming/android-studio.md
       - Java: programming/java.md
+      - Java în FTC: programming/java-in-ftc.md
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
   - Portofoliul Tehnic:
