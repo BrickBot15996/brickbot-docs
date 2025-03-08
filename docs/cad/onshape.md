@@ -15,5 +15,5 @@
 <hr>
 
 <h2><b>Generatoare de piese</b></h2>
-
+- steal from aiclitizens 🙏
 <hr>

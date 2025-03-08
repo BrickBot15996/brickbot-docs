@@ -93,7 +93,8 @@
     content: url("../media/brick_yellow.png");
   }
 
-  .md-content__inner h2 {
+  .md-content__inner h2,
+  h3 {
     color: #ffd100;
   }
 

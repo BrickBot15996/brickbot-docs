@@ -1,4 +1,4 @@
-site_name: Ghid Tehnic BrickBot
+site_name: Ghid Introductiv BrickBot
 site_url: https://brickbot-guide.com/
 
 repo_url: https://github.com/BrickBot15996/brickbot-docs
@@ -73,7 +73,8 @@ nav:
   - Mecanică:
       - Concepte necesare: assembly/basic-concepts.md
       - Furnizori principali: assembly/vendors.md
-      - Componentele electronice: assembly/components.md
+      - Componentele electronice: assembly/electrical.md
+      - Componentele mecanice: assembly/mechanical.md
       - Mecanisme des întâlnite: assembly/mechanisms.md
       - Cum se concepe un robot?: assembly/robot.md
       - Cum îți faci robotul ușor de condus?: assembly/driveable-robot.md
@@ -82,7 +83,9 @@ nav:
       - Android Studio: programming/android-studio.md
       - Java: programming/java.md
       - Java în FTC: programming/java-in-ftc.md
+      - Teoria controlului: programming/control-theory.md
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
-  - Portofoliul Tehnic:
-      - Ce ar trebui să conțină un portofoliu tehnic?: portfolio/guidelines.md
+  - Portofoliul Inginerului:
+      - Tehnic: portfolio/technical.md
+      - Non-Tehnic: portfolio/non-technical.md
