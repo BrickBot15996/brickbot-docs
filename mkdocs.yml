@@ -39,7 +39,7 @@ theme:
     text: "Inter"
     code: "JetBrains Mono"
   language: ro
-  favicon: media/brick_yellow.png
+  favicon: media/brick_favicon.png
   logo: media/brick_yellow.png
   palette:
     - media: "(prefers-color-scheme: light)"
