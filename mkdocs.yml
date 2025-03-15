@@ -93,5 +93,6 @@ nav:
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
   - Portofoliul Inginerului:
+      - Introducere: portfolio/introduction.md
       - Tehnic: portfolio/technical.md
       - Non-Tehnic: portfolio/non-technical.md

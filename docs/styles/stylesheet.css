@@ -21,7 +21,7 @@
   --md-primary-bg-color: #000000;
   --md-primary-bg-color--light: #000000;
 
-  --md-accent-fg-color: #ffd100;
+  --md-accent-fg-color: #ffffff;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
@@ -99,7 +99,7 @@
 
   .md-content__inner h2,
   h3 {
-    color: #ffd100;
+    color: #ffffff;
   }
 
   .md-nav__title[for="__toc"] {
@@ -107,25 +107,25 @@
   }
 
   .md-nav__title[for="__nav_5"] {
-    color: #000000 !important;
+    color: #e2e2e2 !important;
   }
 
-  --md-primary-fg-color: #000000;
+  --md-primary-fg-color: #111111;
   /* --md-primary-fg-color--light: red; */
   /* --md-primary-fg-color--dark: red; */
-  --md-primary-bg-color: #ffd100;
-  --md-primary-bg-color--light: #ffd100;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgb(226, 226, 226);
 
   --md-accent-fg-color: #ffd100;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
 
-  --md-default-fg-color: #ffe884;
+  --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #ffd100;
   --md-default-fg-color--lighter: #ffd100;
-  --md-default-fg-color--lightest: #ffd100;
-  --md-default-bg-color: #141414;
+  --md-default-fg-color--lightest: #ffffff16;
+  --md-default-bg-color: #171717;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
   /* --md-default-bg-color--lightest: red; */
@@ -146,7 +146,7 @@
   --md-code-hl-generic-color: #aeaeae;
   --md-code-hl-variable-color: #aeaeae;
 
-  --md-typeset-color: #e6e6e6;
+  --md-typeset-color: #dadada;
 
   --md-typeset-a-color: #ffd100;
 
@@ -172,7 +172,7 @@
   --md-footer-fg-color--light: #ffd100;
   --md-footer-fg-color--lighter: #5e5e5e;
   --md-footer-bg-color: var(--md-default-bg-color);
-  --md-footer-bg-color--dark: #000000;
+  --md-footer-bg-color--dark: #010101;
 
   /* --md-shadow-z1: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.1);
