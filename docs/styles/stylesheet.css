@@ -162,10 +162,10 @@
   /* --md-typeset-table-color: red;
   --md-typeset-table-color--light: red; */
 
-  /*--md-admonition-fg-color: red;
-  --md-admonition-bg-color: red;
+  --md-admonition-fg-color: rgb(255, 255, 255);
+  --md-admonition-bg-color: rgba(33, 33, 33, 0);
 
-  --md-warning-fg-color: red;
+  /*--md-warning-fg-color: red;
   --md-warning-bg-color: red;*/
 
   --md-footer-fg-color: #ffffff;
