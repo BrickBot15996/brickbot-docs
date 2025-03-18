@@ -12,6 +12,8 @@ Echipele participă mai întâi la minim trei League Meeturi (competiții organi
 Pe lângă competiție, participanții dezvoltă abilități STEAM (**S**cience, **T**echnology,
 **E**ngineering, **A**rts, **M**athematics), desfășoară activități în comunitate și aplică inovația în inginerie. 
 
+!!! note "Unofficial FTC Discord"
+    Recomandăm să intrați pe [serverul de Discord neoficial FTC](https://discord.gg/ftc). E locul perfect unde poți cere ajutor și poți să interacționezi cu persoane din alte echipe FTC.
 ## **Principiile FIRST**
 
 #### **More Than Robots**
