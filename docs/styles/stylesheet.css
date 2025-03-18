@@ -1,6 +1,6 @@
 [data-md-color-scheme="light"] {
   .md-header__button.md-logo img {
-    content: url("../media/brick_black.png");
+    content: url("../logos/brick_black.png");
   }
 
   .md-nav__title[for="__toc"] {
@@ -12,7 +12,7 @@
   }
 
   .md-nav__button.md-logo img {
-    content: url("../media/brick_black.png");
+    content: url("../logos/brick_black.png");
   }
 
   --md-primary-fg-color: #ffd100;
@@ -94,7 +94,7 @@
 
 [data-md-color-scheme="dark"] {
   .md-header__button.md-logo img {
-    content: url("../media/brick_yellow.png");
+    content: url("../logos/brick_yellow.png");
   }
 
   .md-content__inner h2,
@@ -182,8 +182,33 @@
 
   --md-shadow-z3: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.35); */
+
+  img[alt="Curbă de performanță a unui motor"] {
+    filter: invert(1);
+  }
 }
 
 .md-content__inner a {
   text-decoration: underline !important;
+}
+
+img[alt="Motor Modern Robotics 12VDC"] {
+  width: 400px;
+  height: auto;
+  float: left;
+}
+img[alt="Motor GoBilda 13.7:1"] {
+  width: 400px;
+  height: auto;
+}
+
+img[alt="Servo Axon Max"] {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+img[alt="Servo Plex Torque"] {
+  width: 50%;
+  height: auto;
 }
