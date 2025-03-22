@@ -15,6 +15,8 @@ repo_name: brickbot-docs
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
+  - admonition
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.superfences
 
@@ -61,7 +63,7 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/brickbotcnu
     - icon: fontawesome/solid/envelope
-      link: mailto:brickbot@liceulunirea.ro # FIXME: FIXXXXXXXXXXXXXXXXXXXXXX
+      link: mailto:brickbot@liceulunirea.ro
     - icon: fontawesome/solid/globe
       link: https://brickbot.ro
 
@@ -78,7 +80,6 @@ nav:
       - Onshape: cad/onshape.md
       - Printarea 3D: cad/3d-printing.md
   - Mecanică:
-      - Concepte necesare: assembly/basic-concepts.md
       - Furnizori principali: assembly/vendors.md
       - Componentele electronice: assembly/electrical.md
       - Componentele mecanice: assembly/mechanical.md
@@ -87,8 +88,8 @@ nav:
       - Cum îți faci robotul ușor de condus?: assembly/driveable-robot.md
       - Cablare: assembly/wiring.md
   - Programare:
-      - Android Studio: programming/android-studio.md
       - Java: programming/java.md
+      - Android Studio: programming/android-studio.md
       - Java în FTC: programming/java-in-ftc.md
       - Teoria controlului: programming/control-theory.md
       - SimplicityFTC: programming/simplicityftc.md

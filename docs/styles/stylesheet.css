@@ -98,7 +98,9 @@
   }
 
   .md-content__inner h2,
-  h3 {
+  h3,
+  h4,
+  h5 {
     color: #ffd100;
   }
 
@@ -140,9 +142,9 @@
   --md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
   --md-code-hl-string-color: hsla(150, 63%, 30%, 1);
   --md-code-hl-name-color: #aeaeae;
-  --md-code-hl-operator-color: #aeaeae;
+  --md-code-hl-operator-color: #777777;
   --md-code-hl-punctuation-color: #aeaeae;
-  --md-code-hl-comment-color: #aeaeae;
+  --md-code-hl-comment-color: #575757;
   --md-code-hl-generic-color: #aeaeae;
   --md-code-hl-variable-color: #aeaeae;
 
@@ -193,12 +195,12 @@
 }
 
 img[alt="Motor Modern Robotics 12VDC"] {
-  width: 400px;
+  width: 50%;
   height: auto;
   float: left;
 }
 img[alt="Motor GoBilda 13.7:1"] {
-  width: 400px;
+  width: 50%;
   height: auto;
 }
 
