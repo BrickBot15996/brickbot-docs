@@ -91,6 +91,7 @@ nav:
       - Java: programming/java.md
       - Android Studio: programming/android-studio.md
       - Java în FTC: programming/java-in-ftc.md
+      - Cum ajunge codul în robot?: programming/uploading.md
       - Teoria controlului: programming/control-theory.md
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md

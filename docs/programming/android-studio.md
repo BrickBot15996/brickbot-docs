@@ -1,17 +1,17 @@
 # **Android Studio**
 
-## **De ce Android Studio?**
+## **Ce este Android Studio?**
 
-Deoarece sistemul de control folosește o variantă de Android ca sistem de operare,
-aplicația pe care o realizăm pentru a controla robotul trebuie să ruleze și ea pe
-Android. Android Studio este un IDE(Integrated Development Environment - Mediu de
+Android Studio este un IDE (Integrated Development Environment - Mediu de
 dezvoltare) conceput de Google pentru a oferi o serie de feature-uri foarte utile
-pentru developeri.
+pentru developeri. Deoarece sistemul de control folosește o variantă de Android
+ca sistem de operare, aplicația pe care o realizăm pentru a controla robotul
+trebuie să ruleze și ea pe Android.
 
 <!--prettier-ignore-start-->
 !!! info
-    Android este un mediu destul de pretențios din punct de vedere al structurii
-    proiectelor, iar acest IDE ne ușurează foarte mult munca.
+    Java este un limbaj destul de pretențios din punct de vedere al structurii
+    proiectelor, iar de aceea acest IDE ne va ușura considerabil munca.
 <!--prettier-ignore-end-->
 
 <hr>
@@ -38,20 +38,20 @@ acestui proiect.
 
 <hr>
 
-## **Structura unui proiect**
+## **Componentele unui proiect Java**
 
 Am menționat mai sus termenul de **JDK**. Acesta reprezintă un set de instrumente necesare
 pentru dezvoltarea și rularea aplicațiilor Java. Fiecare versiune vine cu feature-uri
 noi, fie pentru îmbunătățirea experienței dezvoltatorului, fie pentru a îmbunătăți
 produsele finale care pot fi realizate. Cea mai recentă versiune este Java 24. Poate
-vă întrebați de ce folosim Java 8? În industrie, Java 8 și Java 11 sunt cele mai **stabile**
-versiuni, iar fiind mai vechi, oferă **compatibilitate** cu aparatură mai veche, cum ar fi
-sistemul de control al roboților FTC.
+vă întrebați de ce folosim Java 8? În industrie, Java 8 și Java 11 sunt considerate cele
+mai **stabile** versiuni, iar fiind mai vechi, oferă **compatibilitate** cu aparatură mai
+veche, cum ar fi sistemul de control al roboților FTC.
 
-Gradle este un sistem de gestionare al dependențelor (pachete externe de cod). Java este un
-limbaj în care se scrie foarte mult **boilerplate** (cod repetitiv, dar necesar), care este
-deseori regăsit în proiecte realizate și publicate de alte persoane, astfel Java devenind
-foarte dependent de pachete externe. De aceea, este necesar un sistem precum Gradle.
+**Gradle** este un sistem de gestionare al dependențelor (pachete externe de cod). Java este un
+limbaj în care se scrie foarte mult **boilerplate** (cod repetitiv, dar necesar), care a fost
+deseori scris și publicat deja de alte persoane, astfel Java devenind foarte dependent de
+pachete externe. De aceea, este necesar un sistem precum Gradle.
 
 <!--prettier-ignore-start-->
 !!! danger "Actualizare Gradle"

@@ -416,7 +416,7 @@ Doi modificatori foarte importanți pe care nu i-am menționat până acum sunt:
   Acesta poate fi folosit și în cazul claselor, pentru a nu permite extinderea lor, sau în
   cazul metodelor pentru a nu permite suprascrierea lor.
 
-###### Annotări
+##### Annotări
 
 Annotările nu sunt cu adevărat cuvinte cheie, însă acestea sunt cuvinte precedate de `@`, în
 general plasate deasupra declarării unei clase, metode sau variabile. Cea mai des întâlnită

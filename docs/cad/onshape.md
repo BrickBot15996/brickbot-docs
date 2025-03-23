@@ -12,7 +12,7 @@ dispozitiv pe altul.
 
 ## **Ghid de utilizare**
 
-Pentru a vă facilita acomodarea cu acest program, echipa 19066 AiCitizens a Colegiului
+Pentru a vă facilita acomodarea cu acest program, echipa <a href="https://ftcscout.org/teams/19066" target="_blank">19066 AiCitizens</a> a Colegiului
 Național "Alexandru Ioan Cuza" a realizat un <a href="/cad/media/ghid-onshape.pdf" target="_blank">ghid de utilizare</a> foarte bun. Acesta prezintă
 pașii de la crearea unui cont la acomodarea cu uneltele prezente pentru proiectarea
 pieselor. De asemenea, ilustrează și câteva dintre funcționalitățile inedite pe care le are

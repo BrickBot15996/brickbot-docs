@@ -118,12 +118,12 @@ momentul în care brațul încearcă să se oprească devine foarte mare, riscâ
 servo-urilor. Aici putem implementa conceptul de counter-springing, folosind un arc sau
 un elastic pentru a reduce din inerție, reducând șocul final. Puteți vedea implementarea
 în <a href="https://www.youtube.com/shorts/cLI090Csmi8" target="_blank">acest</a> filmuleț folosind câteva arcuri pe un braț. De asemenea, <a href="https://www.youtube.com/watch?v=QsBT6OzlN24&t=84s&ab_channel=Technicbots8565" target="_blank">acest</a> workshop ținut de
-echipa 14361 Robolobos ilustrează mai multe implementări de counter-springing și pentru
+echipa <a href="https://ftcscout.org/teams/14361?season=2022" target="_blank">14361 Robolobos</a> ilustrează mai multe implementări de counter-springing și pentru
 alte tipuri de mecanisme.
 
-<a href="https://www.youtube.com/watch?v=pmneNLmWc10&ab_channel=Wolfpack%26Lupine-WaringRobotics" target="_blank">Acest</a> filmuleț realizat de echipa 18438 Wolfpack Machina explică utilizarea corectă a
-servo-urilor în FTC. Reia toate informațiile prezentate până acum și oferă exemple vizuale
-pentru a face totul mai ușor de înțeles.
+<a href="https://www.youtube.com/watch?v=pmneNLmWc10&ab_channel=Wolfpack%26Lupine-WaringRobotics" target="_blank">Acest</a> filmuleț realizat de echipa
+<a href="https://ftcscout.org/teams/18438?season=2022" target="_blank">18438 Wolfpack Machina</a> explică și prezintă utilizarea corectă a
+servo-urilor în FTC.
 
 <hr>
 
@@ -277,5 +277,7 @@ Curentul maxim este tot de 15A, însă după cum am spus, nu este o problemă î
 sens al cuvântului, doar o limitare care ar trebui respectată.
 
 <!-- add images for everything -->
+
+#### Cum se realizează conexiunea cu robotul?
 
 <hr>
