@@ -1,6 +1,6 @@
 [data-md-color-scheme="light"] {
   .md-header__button.md-logo img {
-    content: url("../media/brick_black.png");
+    content: url("../media/brickdocs_light.png");
   }
 
   .md-nav__title[for="__toc"] {
@@ -12,7 +12,7 @@
   }
 
   .md-nav__button.md-logo img {
-    content: url("../media/brick_black.png");
+    content: url("../media/brickdocs_light.png");
   }
 
   --md-primary-fg-color: #ffd100;
@@ -94,7 +94,7 @@
 
 [data-md-color-scheme="dark"] {
   .md-header__button.md-logo img {
-    content: url("../media/brick_yellow.png");
+    content: url("../media/brickdocs_dark.png");
   }
 
   .md-content__inner h2,
@@ -108,6 +108,10 @@
 
   .md-nav__title[for="__nav_5"] {
     color: #e2e2e2 !important;
+  }
+
+  .md-nav__button.md-logo img {
+    content: url("../media/brickdocs_dark.png");
   }
 
   --md-primary-fg-color: #111111;
@@ -186,4 +190,9 @@
 
 .md-content__inner a {
   text-decoration: underline !important;
+}
+
+.md-header__button.md-logo img {
+  height: 1.5rem !important;
+  width: auto !important;
 }
