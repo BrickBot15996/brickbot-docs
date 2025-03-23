@@ -17,8 +17,8 @@ Pe lângă competiție, participanții dezvoltă abilități STEAM (**S**cience,
 **E**ngineering, **A**rts, **M**athematics), desfășoară activități în comunitate și aplică inovația în inginerie.
 
 !!! note "Unofficial FTC Discord"
-Recomandăm să intrați pe [serverul de Discord neoficial FTC](https://discord.gg/ftc).
-E locul perfect unde poți cere ajutor și poți să interacționezi cu persoane din alte echipe FTC.
+    Recomandăm să intrați pe [serverul de Discord neoficial FTC](https://discord.gg/ftc).
+    E locul perfect unde poți cere ajutor și poți să interacționezi cu persoane din alte echipe FTC.
 
 ## **Principiile FIRST**
 
@@ -41,8 +41,8 @@ fără ca nimeni să fie lăsat în urmă.
 Vezi și [valorile FIRST](https://www.firstinspires.org/robotics/fll/core-values)!
 
 !!! note "FIRST Tech Challenge Romania"
-**Nație Prin Educație** este partenerul **FIRST** în România din 2016, aducând programul
-**FIRST Tech Challenge** în țara noastră.
+    **Nație Prin Educație** este partenerul **FIRST** în România din 2016, aducând programul
+    **FIRST Tech Challenge** în țara noastră.
 
 <hr>
 
@@ -64,6 +64,9 @@ Este foarte probabil ca la stand să nu fie mulți membri (în special cei de la
 terenurile de practice ocupați cu robotul). De aceea este foarte important să fie la stand câteva
 persoane bine pregătite și de la tehnic, și de la non-tehnic.
 
+Iată [Interview Question Bank](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/interview-question-bank.pdf), 
+un PDF ce conține întrebările pe care ar putea să le pună jurații fie la stand, fie la interviu.
+
 <!--[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc) [interviu](https://youtu.be/BiNt94HO9FU?si=3heRQbjF9qZ02dCw&t=369)-->
 
 <hr>
@@ -78,9 +81,9 @@ Cele care contează cel mai mult și care asigură un premiu bun sunt cele care 
 necesită o interacțiune reală sau o observare directă, nu doar apariția echipei în fundal).
 
 !!! example "Exemple"
-_Workshop-uri online/fizice de mecanică, proiectare 3D, programare, design grafic pentru elevi/copii;
-organizarea unui League Meet; demonstrații ale robotului la diverse centre comerciale, piețe, locuri
-cu un public divers etc._
+    _Workshop-uri online/fizice de mecanică, proiectare 3D, programare, design grafic pentru elevi/copii;
+    organizarea unui League Meet; demonstrații ale robotului la diverse centre comerciale, piețe, locuri
+    cu un public divers etc._
 
 Organizarea de activități în colaborare cu instituții (școli, licee, universități, biblioteci,
 primării, [instituții publice](https://www.gov.ro/ro/institutii/institutii-publice)), asociații,
@@ -88,9 +91,9 @@ cadre didactice, persoane din domeniul STEAM este foarte încurajată și contri
 vizibilității echipei și programului FIRST.
 
 !!! example "Exemple"
-_Promovarea roboticii ca sport în colaborare cu o instituție/asociație; prezentarea echipei în
-fața unei universități/unor cadre didactice; prezentarea activității recente a echipei în fața
-unui sponsor; ajutor pentru o bibliotecă/un spital; colaborarea cu ingineri; conferință cu specialiști în domenii etc._
+    _Promovarea roboticii ca sport în colaborare cu o instituție/asociație; prezentarea echipei în
+    fața unei universități/unor cadre didactice; prezentarea activității recente a echipei în fața
+    unui sponsor; ajutor pentru o bibliotecă/un spital; colaborarea cu ingineri; conferință cu specialiști în domenii etc._
 
 <hr>
 
@@ -99,6 +102,6 @@ unui sponsor; ajutor pentru o bibliotecă/un spital; colaborarea cu ingineri; co
 <p>Nivelul de competiție din țara noastră se ridică exponențial de la an la an.  </p>
 - În sezonul **CENTERSTAGE**, campioana mondială a fost o echipă din 
 România, [AiCitizens](https://ftcscout.org/teams/19066), iar în sezonul **FREIGHT FRENZY**, tot o echipă din România a fost campioană mondială, [Delta Force](https://ftcscout.org/teams/17713).
-- Suntem a treia țară ca număr de echipe, în spatele SUA și China.
+- Suntem a patra țară ca număr de echipe, în spatele SUA, China și Canada.
 Prin urmare, în fiecare sezon trebuie să evoluăm și noi, nu doar pentru a ține pasul, ci și pentru a concura la un nivel înalt.
 <hr>
