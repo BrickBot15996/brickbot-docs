@@ -17,6 +17,8 @@ markdown_extensions:
       use_pygments: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 theme:
   name: material
@@ -39,8 +41,8 @@ theme:
     text: "Inter"
     code: "JetBrains Mono"
   language: ro
-  favicon: media/brick_favicon.png
-  logo: media/brick_yellow.png
+  favicon: media/brickdocs_light.png
+  logo: media/brickdocs_light.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light
@@ -52,6 +54,9 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  icon:
+    admonition:
+      note: fontawesome/solid/bookmark
 
 extra:
   generator: false
@@ -67,10 +72,11 @@ extra:
 
 extra_css:
   - styles/stylesheet.css # Custom CSS to switch themes
+  - stylesheets/extra.css
 nav:
   - Acasă: index.md
   - Introducere:
-      - Ce este FTC?: intro/what-is-ftc.md
+      - Despre FTC: intro/about-ftc.md
       - Mentalitate de succes: intro/right-mentality.md
   - Proiectare 3D:
       - Ce este Proiectarea 3D?: cad/cad.md
@@ -93,5 +99,11 @@ nav:
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
   - Portofoliul Inginerului:
-      - Tehnic: portfolio/technical.md
+      - Introducere: portfolio/introduction.md
       - Non-Tehnic: portfolio/non-technical.md
+      - Tehnic: portfolio/technical.md
+  - Procesul de Jurizare:
+      - Sfaturi Generale: judging/tips.md
+      - Discursul: judging/presentation.md
+      - Jurizarea de la stand: judging/pit.md
+
