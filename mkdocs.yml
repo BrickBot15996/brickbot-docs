@@ -15,16 +15,20 @@ repo_name: brickbot-docs
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.instant
     - navigation.sections
     - navigation.instant.prefetch
@@ -32,10 +36,10 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
+    - navigation.footer
     - toc.follow
     - search
     - search.suggest
-    - navigation.footer
     - offline
   font:
     text: "Inter"
