@@ -1,8 +1,8 @@
-# Ghid pentru Contribuitori MkDocs Material (Windows Only)
+# Ghid pentru contribuitori BrickDocs (Windows Only)
 
 Acest ghid oferă instrucțiuni pas cu pas pentru configurarea mediului de dezvoltare necesar pentru a contribui la acest proiect MkDocs Material. Urmând acești pași, vei putea instala toate dependințele, rula proiectul local și contribui eficient.
 
-## Cerințe Prealabile
+## Cerințe prealabile
 
 Înainte de a începe, asigură-te că ai instalat următoarele:
 
@@ -18,7 +18,7 @@ Acest ghid oferă instrucțiuni pas cu pas pentru configurarea mediului de dezvo
 2. Rulează instalatorul și urmează instrucțiunile.
 3. În timpul instalării, asigură-te că opțiunea **"Add to PATH"** este bifată.
 
-### 2. Instalare Python și Adăugare în PATH
+### 2. Instalare Python și adăugare în PATH
 
 1. Descarcă ultima versiune de Python de [aici](https://www.python.org/downloads/).
 2. Rulează instalatorul.
@@ -29,7 +29,7 @@ Acest ghid oferă instrucțiuni pas cu pas pentru configurarea mediului de dezvo
    pip --version
    ```
 
-### 3. Actualizare pip (Dacă Este Necesare)
+### 3. Actualizare pip (dacă este necesar)
 
 După instalarea Python, actualizează `pip` la cea mai recentă versiune:
 
@@ -47,7 +47,7 @@ python -m pip install --upgrade pip
    git --version
    ```
 
-## Clonarea Repozitoriului
+## Clonarea repozitoriului
 
 Poți clona repo-ul folosind GitHub Desktop sau Git.
 
@@ -68,7 +68,7 @@ Poți clona repo-ul folosind GitHub Desktop sau Git.
    cd brickbot-docs
    ```
 
-## Instalarea Dependențelor
+## Instalarea dependențelor
 
 Rulează următoarea comandă în directorul proiectului pentru a instala MkDocs și tema Material:
 
@@ -82,7 +82,7 @@ Dacă `requirements.txt` lipsește, instalează manual:
 pip install mkdocs mkdocs-material
 ```
 
-## Rularea Proiectului Local
+## Rularea proiectului local
 
 Pornește serverul de dezvoltare:
 
@@ -92,9 +92,9 @@ mkdocs serve
 
 Deschide browserul și accesează `http://127.0.0.1:8000/` pentru a vizualiza documentația.
 
-## Contribuirea la Proiect
+## Contribuirea la proiect
 
-### 1. Crearea unei Ramuri Noi
+### 1. Crearea unei ramuri noi
 
 **Cu Git:**
 
@@ -109,11 +109,11 @@ git checkout -b branch-name
 3. Click pe **Current Branch** și selectează **New Branch**.
 4. Introdu un nume pentru branch și apasă **Create Branch**.
 
-### 2. Efectuarea Modificărilor și Testarea Locală
+### 2. Efectuarea modificărilor și testarea locală
 
 Editează fișierele Markdown din folderul `docs/` și testează modificările rulând `mkdocs serve`.
 
-### 3. Realizarea Commit-urilor
+### 3. Realizarea commit-urilor
 
 **Cu Git:**
 
@@ -128,7 +128,7 @@ git commit -m "Descrierea modificărilor"
 2. Completează câmpul „Summary” cu o descriere a modificărilor.
 3. Apasă **Commit to branch-name**.
 
-### 4. Trimiterea Modificărilor
+### 4. Trimiterea modificărilor
 
 **Cu Git:**
 
@@ -141,14 +141,14 @@ git push origin branch-name
 1. Asigură-te că ești pe branch-ul corect.
 2. Click pe **Push origin** pentru a trimite modificările pe GitHub.
 
-### 5. Crearea unui Pull Request
+### 5. Crearea unui pull request
 
 1. Mergi pe pagina repo-ului pe GitHub.
 2. Click pe **"Compare & pull request"**.
 3. Oferă un titlu clar și o descriere a modificărilor.
 4. Apasă **Submit pull request**.
 
-## Resurse Suplimentare
+## Resurse suplimentare
 
 - Ghid sintaxă Markdown: [https://www.markdownguide.org/](https://www.markdownguide.org/)
 - Documentație MkDocs: [https://www.mkdocs.org/](https://www.mkdocs.org/)
