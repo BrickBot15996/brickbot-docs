@@ -144,9 +144,9 @@
   --md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
   --md-code-hl-string-color: hsla(150, 63%, 30%, 1);
   --md-code-hl-name-color: #aeaeae;
-  --md-code-hl-operator-color: #aeaeae;
+  --md-code-hl-operator-color: #777777;
   --md-code-hl-punctuation-color: #aeaeae;
-  --md-code-hl-comment-color: #aeaeae;
+  --md-code-hl-comment-color: #575757;
   --md-code-hl-generic-color: #aeaeae;
   --md-code-hl-variable-color: #aeaeae;
 
@@ -186,10 +186,35 @@
 
   --md-shadow-z3: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.35); */
+
+  img[alt="Curbă de performanță a unui motor"] {
+    filter: invert(1);
+  }
 }
 
 .md-content__inner a {
   text-decoration: underline !important;
+}
+
+img[alt="Motor Modern Robotics 12VDC"] {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+img[alt="Motor GoBilda 13.7:1"] {
+  width: 50%;
+  height: auto;
+}
+
+img[alt="Servo Axon Max"] {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+img[alt="Servo Plex Torque"] {
+  width: 50%;
+  height: auto;
 }
 
 .md-header__button.md-logo img {
