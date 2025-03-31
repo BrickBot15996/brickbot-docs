@@ -7,8 +7,14 @@
     color: #000000 !important;
   }
 
-  .md-nav__title[for="__nav_5"] {
-    color: #ffd100 !important;
+  .md-nav__title[for="__nav_1"],
+  .md-nav__title[for="__nav_2"],
+  .md-nav__title[for="__nav_3"],
+  .md-nav__title[for="__nav_4"],
+  .md-nav__title[for="__nav_5"],
+  .md-nav__title[for="__nav_6"],
+  .md-nav__title[for="__nav_7"] {
+    color: #000000 !important;
   }
 
   .md-nav__button.md-logo img {
@@ -17,11 +23,11 @@
 
   --md-primary-fg-color: #ffd100;
   /* --md-primary-fg-color--light: red; */
-  /* --md-primary-fg-color--dark: red; */
+  --md-primary-fg-color--dark: #ffd100;
   --md-primary-bg-color: #000000;
   --md-primary-bg-color--light: #000000;
 
-  --md-accent-fg-color: #ffffff;
+  --md-accent-fg-color: #ddb506;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
@@ -29,7 +35,7 @@
   --md-default-fg-color: #000000;
   --md-default-fg-color--light: #000000;
   /* --md-default-fg-color--lighter: red; */
-  --md-default-fg-color--lightest: #000000;
+  --md-default-fg-color--lightest: #ffd100;
   --md-default-bg-color: #ffffff;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
@@ -106,8 +112,14 @@
     color: #ffd100 !important;
   }
 
-  .md-nav__title[for="__nav_5"] {
-    color: #e2e2e2 !important;
+  .md-nav__title[for="__nav_1"],
+  .md-nav__title[for="__nav_2"],
+  .md-nav__title[for="__nav_3"],
+  .md-nav__title[for="__nav_4"],
+  .md-nav__title[for="__nav_5"],
+  .md-nav__title[for="__nav_6"],
+  .md-nav__title[for="__nav_7"] {
+    color: #ffffff !important;
   }
 
   .md-nav__button.md-logo img {
@@ -116,11 +128,11 @@
 
   --md-primary-fg-color: #111111;
   /* --md-primary-fg-color--light: red; */
-  /* --md-primary-fg-color--dark: red; */
+  --md-primary-fg-color--dark: #111111;
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: rgb(226, 226, 226);
 
-  --md-accent-fg-color: #ffd100;
+  --md-accent-fg-color: #ddb506;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
