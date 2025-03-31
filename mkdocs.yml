@@ -70,13 +70,13 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/brickbotcnu
     - icon: fontawesome/solid/envelope
-      link: mailto:brickbot@liceulunirea.ro # FIXME: FIXXXXXXXXXXXXXXXXXXXXXX
+      link: mailto:brickbot@liceulunirea.ro
     - icon: fontawesome/solid/globe
       link: https://brickbot.ro
 
 extra_css:
   - styles/stylesheet.css # Custom CSS to switch themes
-  - stylesheets/extra.css
+docs_dir: "docs"
 nav:
   - Acasă: index.md
   - Introducere:
@@ -87,7 +87,6 @@ nav:
       - Onshape: cad/onshape.md
       - Printarea 3D: cad/3d-printing.md
   - Mecanică:
-      - Concepte necesare: assembly/basic-concepts.md
       - Furnizori principali: assembly/vendors.md
       - Componentele electronice: assembly/electrical.md
       - Componentele mecanice: assembly/mechanical.md
@@ -96,9 +95,10 @@ nav:
       - Cum îți faci robotul ușor de condus?: assembly/driveable-robot.md
       - Cablare: assembly/wiring.md
   - Programare:
-      - Android Studio: programming/android-studio.md
       - Java: programming/java.md
+      - Android Studio: programming/android-studio.md
       - Java în FTC: programming/java-in-ftc.md
+      - Cum ajunge codul în robot?: programming/uploading.md
       - Teoria controlului: programming/control-theory.md
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
@@ -110,4 +110,3 @@ nav:
       - Sfaturi Generale: judging/tips.md
       - Discursul: judging/presentation.md
       - Jurizarea de la stand: judging/pit.md
-
