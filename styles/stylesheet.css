@@ -109,6 +109,10 @@
     color: #ffffff;
   }
 
+  .md-nav__title[for="__toc"] label {
+    color: #ffffff;
+  }
+
   .md-nav__title[for="__toc"] {
     color: #ffd100 !important;
   }
