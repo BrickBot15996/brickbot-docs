@@ -1,6 +1,8 @@
 # **Mecanisme des întâlnite**
 
-- plug gm0 mechanisms
+Coming soon...
+
+<!-- - plug gm0 mechanisms
 
 <hr>
 
@@ -17,5 +19,5 @@
 
 <h2><b>Outtake</b></h2>
 - claw
-- bucket
+- bucket -->
 <hr>

@@ -38,6 +38,10 @@ rapizi decât un robot mai complicat.
 
 <hr>
 
+## **Abilități de problem-solving**
+
+<hr>
+
 ## **Gândirea analitică**
 
 La nivel fundamental, FTC reprezintă o serie de **compromisuri**. Pentru a ajunge la o

@@ -1,6 +1,6 @@
 # **Ce este FTC?**
 
-<!--[FIRST Tech Challenge](https://www.firstinspires.org/resource-library/ftc/game-and-season-info)-->
+<!--[FIRST Tech Challenge](https://www.firstinspires.org/resource-library/ftc/game-and-season-info)
 
 - blabber about the ftc community
 
@@ -10,7 +10,7 @@
 
 - explain what they are and why they are important
 - attach portfolio platforms and interview video example
-<!--[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc) [interviu](https://youtu.be/BiNt94HO9FU?si=3heRQbjF9qZ02dCw&t=369)-->
+<!--[portofoliu tehnic](https://portfolios.hivemindrobotics.net/ftc) [interviu](https://youtu.be/BiNt94HO9FU?si=3heRQbjF9qZ02dCw&t=369)
 
 <hr>
 
@@ -28,6 +28,6 @@
 
 <h2><b>Comunitatea din România</b></h2>
 
-- emphasize how good Romania is, how hard this region is and how much work and attention to detail is necessary
+- emphasize how good Romania is, how hard this region is and how much work and attention to detail is necessary-->
 
 <hr>
