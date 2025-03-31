@@ -15,16 +15,20 @@ repo_name: brickbot-docs
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
-  - admonition
-  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.instant
     - navigation.sections
     - navigation.instant.prefetch
@@ -32,17 +36,17 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
+    - navigation.footer
     - toc.follow
     - search
     - search.suggest
-    - navigation.footer
     - offline
   font:
     text: "Inter"
     code: "JetBrains Mono"
   language: ro
-  favicon: logos/brick_yellow.png
-  logo: logos/brick_yellow.png
+  favicon: media/brickdocs_light.png
+  logo: media/brickdocs_light.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light
@@ -54,6 +58,9 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  icon:
+    admonition:
+      note: fontawesome/solid/bookmark
 
 extra:
   generator: false
@@ -73,7 +80,7 @@ docs_dir: "docs"
 nav:
   - Acasă: index.md
   - Introducere:
-      - Ce este FTC?: intro/what-is-ftc.md
+      - Despre FTC: intro/about-ftc.md
       - Mentalitate de succes: intro/right-mentality.md
   - Proiectare 3D:
       - Ce este Proiectarea 3D?: cad/cad.md
@@ -96,5 +103,10 @@ nav:
       - SimplicityFTC: programming/simplicityftc.md
       - Alte resurse: programming/other-resources.md
   - Portofoliul Inginerului:
-      - Tehnic: portfolio/technical.md
+      - Introducere: portfolio/introduction.md
       - Non-Tehnic: portfolio/non-technical.md
+      - Tehnic: portfolio/technical.md
+  - Procesul de Jurizare:
+      - Sfaturi Generale: judging/tips.md
+      - Discursul: judging/presentation.md
+      - Jurizarea de la stand: judging/pit.md
