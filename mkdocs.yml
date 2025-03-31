@@ -45,8 +45,8 @@ theme:
     text: "Inter"
     code: "JetBrains Mono"
   language: ro
-  favicon: media/brickdocs_light.png
-  logo: media/brickdocs_light.png
+  favicon: logos/brickdocs_light.png
+  logo: logos/brickdocs_light.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light

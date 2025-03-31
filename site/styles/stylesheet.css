@@ -1,27 +1,33 @@
 [data-md-color-scheme="light"] {
   .md-header__button.md-logo img {
-    content: url("../media/brickdocs_light.png");
+    content: url("../logos/brickdocs_light.png");
   }
 
   .md-nav__title[for="__toc"] {
     color: #000000 !important;
   }
 
-  .md-nav__title[for="__nav_5"] {
-    color: #ffd100 !important;
+  .md-nav__title[for="__nav_1"],
+  .md-nav__title[for="__nav_2"],
+  .md-nav__title[for="__nav_3"],
+  .md-nav__title[for="__nav_4"],
+  .md-nav__title[for="__nav_5"],
+  .md-nav__title[for="__nav_6"],
+  .md-nav__title[for="__nav_7"] {
+    color: #000000 !important;
   }
 
   .md-nav__button.md-logo img {
-    content: url("../media/brickdocs_light.png");
+    content: url("../logos/brickdocs_light.png");
   }
 
   --md-primary-fg-color: #ffd100;
   /* --md-primary-fg-color--light: red; */
-  /* --md-primary-fg-color--dark: red; */
+  --md-primary-fg-color--dark: #ffd100;
   --md-primary-bg-color: #000000;
   --md-primary-bg-color--light: #000000;
 
-  --md-accent-fg-color: #ffffff;
+  --md-accent-fg-color: #ddb506;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
@@ -29,7 +35,7 @@
   --md-default-fg-color: #000000;
   --md-default-fg-color--light: #000000;
   /* --md-default-fg-color--lighter: red; */
-  --md-default-fg-color--lightest: #000000;
+  --md-default-fg-color--lightest: #ffd100;
   --md-default-bg-color: #ffffff;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
@@ -94,7 +100,7 @@
 
 [data-md-color-scheme="dark"] {
   .md-header__button.md-logo img {
-    content: url("../media/brickdocs_dark.png");
+    content: url("../logos/brickdocs_dark.png");
   }
 
   .md-content__inner h2,
@@ -106,21 +112,27 @@
     color: #ffd100 !important;
   }
 
-  .md-nav__title[for="__nav_5"] {
-    color: #e2e2e2 !important;
+  .md-nav__title[for="__nav_1"],
+  .md-nav__title[for="__nav_2"],
+  .md-nav__title[for="__nav_3"],
+  .md-nav__title[for="__nav_4"],
+  .md-nav__title[for="__nav_5"],
+  .md-nav__title[for="__nav_6"],
+  .md-nav__title[for="__nav_7"] {
+    color: #ffffff !important;
   }
 
   .md-nav__button.md-logo img {
-    content: url("../media/brickdocs_dark.png");
+    content: url("../logos/brickdocs_dark.png");
   }
 
   --md-primary-fg-color: #111111;
   /* --md-primary-fg-color--light: red; */
-  /* --md-primary-fg-color--dark: red; */
+  --md-primary-fg-color--dark: #111111;
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: rgb(226, 226, 226);
 
-  --md-accent-fg-color: #ffd100;
+  --md-accent-fg-color: #ddb506;
   /* --md-accent-fg-color--transparent: red; */
   /* --md-accent-bg-color: red; */
   /* --md-accent-bg-color--light: red; */
@@ -144,9 +156,9 @@
   --md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
   --md-code-hl-string-color: hsla(150, 63%, 30%, 1);
   --md-code-hl-name-color: #aeaeae;
-  --md-code-hl-operator-color: #aeaeae;
+  --md-code-hl-operator-color: #777777;
   --md-code-hl-punctuation-color: #aeaeae;
-  --md-code-hl-comment-color: #aeaeae;
+  --md-code-hl-comment-color: #575757;
   --md-code-hl-generic-color: #aeaeae;
   --md-code-hl-variable-color: #aeaeae;
 
@@ -186,10 +198,35 @@
 
   --md-shadow-z3: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.35); */
+
+  img[alt="Curbă de performanță a unui motor"] {
+    filter: invert(1);
+  }
 }
 
 .md-content__inner a {
   text-decoration: underline !important;
+}
+
+img[alt="Motor Modern Robotics 12VDC"] {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+img[alt="Motor GoBilda 13.7:1"] {
+  width: 50%;
+  height: auto;
+}
+
+img[alt="Servo Axon Max"] {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+img[alt="Servo Plex Torque"] {
+  width: 50%;
+  height: auto;
 }
 
 .md-header__button.md-logo img {
