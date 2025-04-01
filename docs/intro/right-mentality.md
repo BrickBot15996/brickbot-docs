@@ -40,6 +40,20 @@ rapizi decât un robot mai complicat.
 
 ## **Abilități de problem-solving**
 
+Abilitățile de problem-solving sunt probabil cel mai important skill în domeniul ingineriei. La
+nivel fundamental, totul reprezintă o problemă care trebuie rezolvată. Uneori, circumstanțele sunt
+favorabile, având timpul și resursele necesare pentru a le rezolva, alteori toate șansele sunt
+împotriva ta, dar totuși nu te poți da bătut. În esență, un bun inginer trebuie să poată evalua
+tot ce are la dispoziție, tot ce cunoaște despre contextul situației în care se află și să plece
+de la aceste informații pentru a găsi cea mai bună soluție. Unele probleme sunt foarte dificile,
+iar de aceea este important să știm cum să extragem tot ce putem și să pornim de acolo.
+
+<!--prettier-ignore-start-->
+!!! quote "Citat"
+    _If I had an hour to solve a problem, I would spend 55 minutes defining the problem and 5_
+    _minutes finding the solution._
+<!--prettier-ignore-end-->
+
 <hr>
 
 ## **Gândirea analitică**
@@ -71,7 +85,8 @@ Orice abordare poate fi foarte bună, atâta timp cât are suficiente **iterați
 
 <!--prettier-ignore-start-->
 !!! warning "Perfecționismul"
-    Mereu există tentația de a găsi ideea perfectă, însă în general această frică ajunge să facă **mai mult rău decât bine**.
+    Mereu există tentația de a găsi ideea perfectă din prima, însă în general această frică ajunge
+    să facă **mai mult rău decât bine**.
 <!--prettier-ignore-end-->
 
 <hr>
@@ -117,10 +132,7 @@ Antrenamentul nu trebuie neglijat, este cea mai importantă parte a realizării 
 
 În FTC mereu trebuie să fim pregătiți pentru ce e mai rău. O abordare precum:
 
-<!--prettier-ignore-start-->
-!!! quote "Citat"
-    _De ce să pui șurub unde poți să pui o sârmă?_
-<!--prettier-ignore-end-->
+> _De ce să pui șurub unde poți să pui o sârmă?_
 
 duce doar la rezultate negative. Soluțiile temporare nu ar trebui să fie acceptabile,
 deoarece au tendința să devină permanente. Dacâ timpul permite, ar trebui mereu căutate

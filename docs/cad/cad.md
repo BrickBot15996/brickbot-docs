@@ -2,7 +2,7 @@
 
 ## **Ce reprezintă?**
 
-Proiectarea 3D sau CAD(Computer-Aided Design) este o tehnologie care permite crearea,
+Proiectarea 3D sau CAD (Computer-Aided Design) este o tehnologie care permite crearea,
 modificarea și optimizarea unui design. Îți dă șansa de a înțelege mai bine cum se
 potrivesc componentele unui proiect înainte de realizarea sa în lumea reală.
 

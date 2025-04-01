@@ -27,6 +27,6 @@ Coming soon...
 - focus on simplicity again
 
 Probably should add this to the end of the document
-[aici](https://www.youtube.com/watch?v=qIUIWsuzY8Q&t=250s) este un workshop în care echipa [12993 RoboKings Aurum](https://ftcscout.org/teams/12993)-->
+[aici](https://www.youtube.com/watch?v=qIUIWsuzY8Q&t=250s) este un workshop în care echipa [12993 RoboKings Aurum](https://ftcscout.org/teams/12993)
 
-<hr>
+<hr>-->
