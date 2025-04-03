@@ -33,7 +33,7 @@ Pentru a putea înțelege mai bine motoarele este nevoie de câteva concepte de 
   a motorului. Cele externe sunt cele realizate prin transmisii pe curele, roți dințate sau
   orice altceva. Astfel putem obține orice viteză/cuplu dorim pentru un anumit mecanism.
 
-#### Curbele de performanță ale motoarelor
+#### **Curbele de performanță ale motoarelor**
 
 Foarte multe lucruri în lumea reală nu sunt liniare. În general este suficient să aproximăm
 marea majoritate folosind liniaritatea, însă cred că este mai important să întelegem cum
@@ -58,7 +58,7 @@ rația adecvată unor mecanisme des folosite în FTC:
 - <a href="https://calculator.frc4322.com/linear-mechanism" target="_blank">Linear Mechanism Calculator</a> - folosit pentru a determina rația cea mai bună pentru
   mecanisme liniare, cum ar fi lifturile
 
-#### Bune practici
+#### **Bune practici**
 
 Ceva de care ar trebui să ținem cont, este protejarea motoarelor. Practici bune în acest
 scop sunt:
@@ -103,7 +103,7 @@ Un lucru inedit la servo-uri este posibilitatea de a folosi un <a href="https://
 seta și testa range-ul de folosire al acestuia. În cazul anumitor servo-uri, de exemplu cele
 Axon, ele folosesc un <a href="https://docs.axon-robotics.com/axon-servos/servo-programmer" target="_blank">program</a> pe calculator prin care poți controla mai multe setări.
 
-#### Bune practici
+#### **Bune practici**
 
 Comparativ cu motoarele, servo-urile sunt și mai fragile, necesitând și mai multă atenție
 în folosirea lor. Din punct de vedere al bunelor practici, evitarea direct drive rămâne
@@ -132,7 +132,7 @@ servo-urilor în FTC.
 Senzorii sunt o parte foarte importantă în FTC pentru a obține un robot fiabil, fie că este
 vorba de perioada de autonomie sau cea de teleoperare.
 
-#### Encodere
+#### **Encodere**
 
 Pentru perioada de autonomie, aspectul cel mai important este localizarea. În acest sens,
 există niște senzori ce poartă numele de encoder. Scopul lor este măsurarea poziției de
@@ -150,7 +150,7 @@ encoder:
   similar cu poziția servo-urilor. În momentul în care depășește cele 360 de grade,
   începe iarăși de la 0.
 
-#### Camere
+#### **Camere**
 
 Un element nelipsit din jocurile FTC este utilizarea de computer vision folosind o cameră.
 Aceasta poate fi folosită pentru detectarea unor elemente specifice perioadei de autonomie,
@@ -160,14 +160,14 @@ numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_por
 ușoare de folosit pentru a prelua poziția relativă față de ele. Astfel, cunoscând poziția
 lor absolută pe teren, putem obține poziția robotului pe teren destul de ușor.
 
-#### Alți senzori
+#### **Alți senzori**
 
 Alți senzori sunt deseori folosiți pentru a determina dacă un element de joc a ajuns într-o
 anumită parte a robotului. În acest scop pot fi folosiți <a href="https://www.pololu.com/category/283/pololu-digital-distance-sensors" target="_blank">senzori de distanță</a>, <a href="https://www.revrobotics.com/rev-31-1557/" target="_blank">de culoare</a>,
 <a href="https://www.optimusdigital.ro/en/others/3802-ir-break-beam-sensor-5mm-leds.html?srsltid=AfmBOorV_Iwi6ldmZ035XtM8g-1rpblMwcX8gbHlA9Hg8fkli82h4HUW" target="_blank">break beams</a> sau <a href="https://sigmanortec.ro/precomanda/other-accessories/dip-2-pin-momentary-push-button-tactile-tact-switches-6-x-6-x-5mm-contact-momentary" target="_blank">butoane</a>. În mod evident, există și alte utilizări pentru acești senzori, cum ar fi
 detectarea de obstacole sau determinarea stării unor mecanisme ale robotului.
 
-#### Protocoale de comunicare
+#### **Protocoale de comunicare**
 
 Senzorii pot folosi mai multe protocoale de comunicare:
 
@@ -181,7 +181,7 @@ celelalte. Timpul de citire al protocolului I²C este mult mai lung decât al ce
 protocoale, astfel încetinind viteza codului robotului. Din această cauză, ar trebui evitați
 pe cât posibil senzorii I²C.
 
-#### IMU
+#### **IMU**
 
 IMU(Intertial Measurement Unit) este un modul ce permite măsurarea orientării față de cele
 3 axe ale sistemului tridimensional, dar și alți parametrii precum accelerația și viteza pe
@@ -202,7 +202,7 @@ Există, de asemenea, alte 2 produse foarte interesante ce conțin un IMU:
 <a href="https://docs.revrobotics.com/duo-control" target="_blank">Sistemul de control</a> este _creierul_ robotului. Acesta rulează codul pe care îl scriem,
 și controlează toate celelalte componente electronice.
 
-#### Control Hub și Expansion Hub
+#### **Control Hub și Expansion Hub**
 
 Control Hub-ul este partea principală a sistemului de control. Acesta este conectat la
 Driver Station (telefonul care preia instrucțiunile de la driveri și le transmite robotului)
@@ -229,7 +229,7 @@ trebuie să ținem cont de următoarele lucruri:
   unde mufați în momentul în care folosiți servo-uri mai puternice (Axon, Plex etc.). Dacă
   unul dintre porturi se strică în vreun fel, nici cel asociat lui nu va mai funcționa.
 
-#### Bateriile și curentul
+#### **Bateriile și curentul**
 
 Bateriile în FTC vin cu o serie de specificații de bază, indiferent de modelul sau de
 furnizorul de la care au fost cumpărate. Acestea funcționeaza la 12V și pot oferi un
@@ -248,7 +248,7 @@ acesteia. O rezistență internă mai mică, permite robotului să tragă mai mu
 baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și
 bugetarea acestuia.
 
-#### Servo Power Module și Servo Hub
+#### **Servo Power Module și Servo Hub**
 
 Servo Power Module și Servo Hub sunt două componente de electronică ce permit
 alimentarea a 6 servo-uri cu 6V, în loc de cei 5V furnizați de Control Hub și de Expansion
@@ -277,7 +277,5 @@ Curentul maxim este tot de 15A, însă după cum am spus, nu este o problemă î
 sens al cuvântului, doar o limitare care ar trebui respectată.
 
 <!-- add images for everything -->
-
-#### Cum se realizează conexiunea cu robotul?
 
 <hr>

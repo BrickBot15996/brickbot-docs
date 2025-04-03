@@ -24,22 +24,37 @@ La momentul actual, avem la dispoziție următoarele imprimante:
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
 
  <div>
-   <img src="../media/bambu-x1c.webp" alt="BambuLab X1C" width="100%">
+   <img src="../media/bambu-x1c.png" alt="BambuLab X1C" width="100%">
    <p style="text-align:center"><strong>1 x BambuLab X1C</strong></p>
  </div>
 
  <div>
-   <img src="../media/bambu-a1mini.webp" alt="BambuLab A1 Mini" width="100%">
+   <img src="../media/bambu-a1mini.png" alt="BambuLab A1 Mini" width="100%">
    <p style="text-align:center"><strong>1 x BambuLab A1 Mini</strong></p>
  </div>
 
  <div>
-   <img src="../media/prusa-mk3s.jpg" alt="Prusa MK3S+" width="100%">
+   <img src="../media/prusa-mk3s.png" alt="Prusa MK3S+" width="100%">
    <p style="text-align:center"><strong>2 x Prusa MK3S+</strong></p>
  </div>
 
 </div>
 
 ## **Slicere**
+
+Un slicer este un program care generează pașii pe care trebuie să îi urmeze o
+imprimantă pentru a putea produce obiectele dorite. Acesta permite modificarea
+unei game largi de parametri pentru a permite îmbunătățirea parametrilor
+obiectului, cum ar fi timpul de printare, rezistența și calitatea.
+
+Fiecare producător de imprimante vine cu propriul lor slicer, însă în general
+sunt compatibile cu mai multe tipuri de imprimante.
+
+Pentru a evita orice problemă de compatibilitate, recomand să folosim
+<a href="https://orcaslicer.net/" target="_blank">Orcaslicer</a>. Este un proiect
+open-source, al cărui scop este să facă mai ușoară experiența de printare 3D.
+La bază, este o variantă modificată a <a href="https://bambulab.com/en/download/studio" target="_blank">Bambu Studio</a>.
+Un mare avantaj este faptul că Orcaslicer rezolvă parte din problemele de compatibilitate
+cu alți producători de imprimante.
 
 <hr>
