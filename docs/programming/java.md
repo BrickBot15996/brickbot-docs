@@ -45,9 +45,9 @@ lor (aproape că) nu poate fi schimbat. Vom discuta despre asta puțin mai înco
 Pentru a putea manipula datele, trebuie să cunoaștem operatorii și instrucțiunile încorporate
 în limbajul Java.
 
-#### Operatori
+#### **Operatori**
 
-##### Operatori Aritmetici
+##### **Operatori Aritmetici**
 
 - `+`, `-`, `*`, `/` - operațiile fundamentale de adunare, scădere, înmulțire, împărțire
 - `%` - calculează restul împărțirii
@@ -70,7 +70,7 @@ x--; --x; // scade valoarea lui x cu 1;
           //           apoi este folosită noua valoare
 ```
 
-##### Operatori de Atribuire
+##### **Operatori de Atribuire**
 
 - `=` - atribuie unei variabile o valoare
 - `+=`, `-=`, `*=`, `/=`, `%=` - aplică operațiile ilustrate mai sus
@@ -85,22 +85,22 @@ x %= 5; // este echivalent cu x = x % 5; valoarea lui x este egală cu restul
         // împărțirii sale la 5
 ```
 
-##### Operatori logici
+##### **Operatori logici**
 
 - `&&` - operatorul și
 - `||` - operatorul sau
 - `!` - operatorul de negație
 
-##### Operatori de comparare
+##### **Operatori de comparare**
 
 - `==` - egalitate
 - `!=` - nu(!) egalitate
 - `>`, `<` - strict mai mic/mai mare
 - `>=`, `<=` - mai mare sau egal/mai mic sau egal
 
-#### Instrucțiuni
+#### **Instrucțiuni**
 
-##### Instrucțiuni condiționale
+##### **Instrucțiuni condiționale**
 
 Pentru a putea evalua _condiții_ în Java, putem folosi instrucțiunea `if`.
 
@@ -152,7 +152,7 @@ că aici a fost folosit mecanismul de fall-through. Practic, dacă avem 2 cazuri
 pentru care am vrea să avem aceleași consecințe, putem să nu folosim `break`, iar cazurile
 vor _curge_ unul în altul.
 
-##### Bucle repetitive
+##### **Bucle repetitive**
 
 În Java avem la dispoziție 3 tipuri principale de bucle repetitive:
 
@@ -289,7 +289,7 @@ parcurgem. În esență, ce face acest cod este diferențierea dintre un câine 
 prin sunetul pe care îl scoate fiecare. Utilizarea clasei `Animal` ca și trăsătură
 comună ne permite să nu mai avem câmpurile `name` și `age` în fiecare tip de animal.
 
-#### Clase și Interfețe
+#### **Clase și Interfețe**
 
 După cum puteți vedea, în exemplul principal este folosit cuvântul cheie `class`. Clasa
 deține definiția trăsăturilor unui obiect. Cum o putem folosi? Ei bine, în exemplul de mai
@@ -377,7 +377,7 @@ categorie. În general, sunt utilizate pentru înregistrarea unui număr finit d
 Ele pot conține variabile, metode și constructori pentru a putea asocia trăsături
 fiecărui element al enumerației.
 
-#### Extindere și Implementare
+#### **Extindere și Implementare**
 
 Două elemente care au apărut în exemplele de până acum, asupra cărora nu am atras atenția
 au fost cuvintele cheie `extends` și `implements`. Acestea sunt mijloacele prin care o clasă/o interfață
@@ -388,14 +388,14 @@ poate prelua trăsăturile alteia.
 - `implements` - se folosește când se dorește preluarea trăsăturilor unei interfețe. În cazul
   acesta, pot fi implementate una sau mai multe interfețe.
 
-#### Cuvinte cheie
+#### **Cuvinte cheie**
 
 Cuvintele cheie din Java sunt termeni rezervați de limbaj, ce ajută la definirea structurii
 și comportamentului programelor, având semnificații prestabilite. Pentru a explora toate
 cuvintele cheie pe care le avem la dispoziție, puteți accesa această <a href="https://www.w3schools.com/java/java_ref_keywords.asp" target="_blank">listă</a>. În
 continuare, vom aborda câteva dintre cele mai importante care nu au fost menționate până acum.
 
-##### Specificatori de acces
+##### **Specificatori de acces**
 
 În Java, specificatorii de acces determină unde pot fi preluate și utilizate anumite câmpuri,
 fie ele variabile, metode sau clase.
@@ -407,7 +407,7 @@ fie ele variabile, metode sau clase.
 - protected - câmpurile pot fi accesate doar în cadrul subclaselor
 - public - cel mai puțin restrictiv, câmpurile pot fi accesate oriunde în cadrul proiectului
 
-##### Modificatori
+##### **Modificatori**
 
 Doi modificatori foarte importanți pe care nu i-am menționat până acum sunt:
 
@@ -416,14 +416,14 @@ Doi modificatori foarte importanți pe care nu i-am menționat până acum sunt:
   Acesta poate fi folosit și în cazul claselor, pentru a nu permite extinderea lor, sau în
   cazul metodelor pentru a nu permite suprascrierea lor.
 
-##### Annotări
+##### **Annotări**
 
 Annotările nu sunt cu adevărat cuvinte cheie, însă acestea sunt cuvinte precedate de `@`, în
 general plasate deasupra declarării unei clase, metode sau variabile. Cea mai des întâlnită
 annotare este `@Override`. Aceasta permite suprascrierea unei metode care nu a fost marcată
 ca `final` și are deja o definiție.
 
-#### Principiile OOP
+#### **Principiile OOP**
 
 În programarea orientată pe obiect (OOP) din Java, patru principii fundamentale sunt esențiale
 pentru a înțelege structura aplicațiilor: încapsularea, moștenirea, polimorfismul și abstracția.
@@ -445,7 +445,7 @@ pentru a înțelege structura aplicațiilor: încapsularea, moștenirea, polimor
    acest principiu este implementat prin utilizarea de clase și interfețe abstracte care definesc
    comportamentele fără a dezvălui implementările detaliate.
 
-#### Design Patterns
+#### **Design Patterns**
 
 Deși conceptul de design pattern este unul destul de avansat, este important să fim conștienți de
 existența lor și să înțelegem cum pot îmbunătăți calitatea unui proiect. Aceste modele reprezintă

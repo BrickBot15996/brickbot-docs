@@ -31,7 +31,7 @@ Diversitatea capurilor de șurub este foarte mare, însă principalele cu care v
  </div>
 
  <div>
-   <img src="../media/torx-screw.jpeg" alt="Cap torx" width="100%">
+   <img src="../media/torx-screw.png" alt="Cap torx" width="100%">
    <p style="text-align:center"><strong>Cap torx</strong></p>
  </div>
 
@@ -57,7 +57,7 @@ sunt mici, așadar nu sunt mereu interschimbabile. Principalele forme ale capuri
  </div>
 
  <div>
-   <img src="../media/button-head.jpg" alt="Cap bombat" width="100%">
+   <img src="../media/button-head.png" alt="Cap bombat" width="100%">
    <p style="text-align:center"><strong>Cap bombat</strong></p>
  </div>
 
@@ -93,7 +93,7 @@ tipul de material sau contextul în care ar trebui să fie folosit. Principalele
 
 </div>
 
-##### Grosimea filetului
+##### **Grosimea filetului**
 
 După cum bine știți, în România se folosește sistemul metric. Așadar, diametrele șuruburilor au un
 M în față. De exemplu, un șurub cu diametrul de 4mm, va avea dimensiunea M4.
@@ -163,6 +163,8 @@ Până la urmă, decizia de nume este subiectivă și irelevantă, este importan
 <hr>
 
 ## **Unelte**
+
+Coming soon...
 
 <!--imbus, surubelnita, sfic, drill, drill press, polizor, cheie -->
 

@@ -62,7 +62,7 @@ Un OpMode are două etape:
   să se deplaseze pe teren
 - run - etapa în care robotul primește și execută comenzi
 
-#### Starea unui OpMode
+#### **Starea unui OpMode**
 
 Există o serie de metode pentru a determina sau modifica starea unui OpMode:
 
@@ -77,7 +77,7 @@ Există o serie de metode pentru a determina sau modifica starea unui OpMode:
 - `sleep()` - face ca robotul să nu poată accepta comenzi sub nicio formă
   pentru un număr dat de milisecunde.
 
-#### Telemetrie
+#### **Telemetrie**
 
 Telemetria este o unealtă cu ajutorul căreia poți trimite informații de la
 robot către Driver Station. Telemetria are două metode principale în cod:
@@ -92,7 +92,7 @@ o singură dată per loop. Dacă o veți apela de mai multe ori, întâi va fi
 trimisă toată informația, va fi ștearsă, iar la al doilea apel nu va fi
 trimis nimic.
 
-#### HardwareMap
+#### **HardwareMap**
 
 HardwareMap-ul conține lista tuturor componentelor electronice aflate
 pe robot. Aici trebuie adăugate toate motoarele, toate servo-urile,
