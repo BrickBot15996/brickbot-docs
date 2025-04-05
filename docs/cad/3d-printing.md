@@ -51,7 +51,7 @@ Fiecare producător de imprimante vine cu propriul lor slicer, însă în genera
 sunt compatibile cu mai multe tipuri de imprimante.
 
 Pentru a evita orice problemă de compatibilitate, recomand să folosim
-<a href="https://orcaslicer.net/" target="_blank">Orcaslicer</a>. Este un proiect
+<a href="https://orcaslicer.net/" target="_blank">OrcaSlicer</a>. Este un proiect
 open-source, al cărui scop este să facă mai ușoară experiența de printare 3D.
 La bază, este o variantă modificată a <a href="https://bambulab.com/en/download/studio" target="_blank">Bambu Studio</a>.
 Un mare avantaj este faptul că Orcaslicer rezolvă parte din problemele de compatibilitate

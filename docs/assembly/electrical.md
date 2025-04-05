@@ -16,8 +16,19 @@ Motoarele sunt cele mai puternice actuatoare pe care le avem la dispoziție în 
 mulți dintre furnizorii principali au propriile lor motoare la vânzare, însă la bază toate sunt
 la fel. Cele mai des folosite sunt motoarele <a href="https://www.gobilda.com/modern-robotics-12vdc-motor/" target="_blank">Modern Robotics 12VDC</a>.
 
-![Motor Modern Robotics 12VDC](media/motor.png "Motor Modern Robotics 12VDC")
-![Motor GoBilda 13.7:1](media/gobilda-435.png "Motor GoBilda 13.7:1")
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/motor.png" alt="Motor Modern Robotics 12VDC" width="100%">
+   <p style="text-align:center"><strong>Motor Modern Robotics 12VDC</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/gobilda-435.png" alt="Motor GoBilda 13.7:1" width="100%">
+   <p style="text-align:center"><strong>Motor GoBilda 13.7:1</strong></p>
+ </div>
+
+</div>
 
 Pentru a putea înțelege mai bine motoarele este nevoie de câteva concepte de bază:
 
@@ -95,8 +106,19 @@ Există două moduri diferite pentru servo-uri:
   270, 360 de grade, dar și unele care oferă mai multe rotații complete, până chiar la 7
   rotații.
 
-![Servo Axon Max](media/axon-max.webp "Servo Axon Max")
-![Servo Plex Torque](media/plex-torque.png "Servo Plex Torque")
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/axon-max.webp" alt="Servo Axon Max" width="100%">
+   <p style="text-align:center"><strong>Servo Axon Max</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/plex-torque.png" alt="Servo Plex Torque" width="100%">
+   <p style="text-align:center"><strong>Servo Plex Torque</strong></p>
+ </div>
+
+</div>
 
 Conceptele de cuplu, RPM și rație rămân oarecum la fel. Mai apare în plus conceptul de
 viteză unghiulară. În general o să îl întâlnim sub forma de secunde/60°, reprezentând timpul
@@ -153,22 +175,77 @@ encoder:
   similar cu poziția servo-urilor. În momentul în care depășește cele 360 de grade,
   începe iarăși de la 0.
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/motor-encoder.png" alt="Encoder de motor" width="100%">
+   <p style="text-align:center"><strong>Encoder de motor</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/external-encoder.png" alt="Encoder extern" width="100%">
+   <p style="text-align:center"><strong>Encoder extern</strong></p>
+ </div>
+
+</div>
+
 #### **Camere**
 
 Un element nelipsit din jocurile FTC este utilizarea de computer vision folosind o cameră.
 Aceasta poate fi folosită pentru detectarea unor elemente specifice perioadei de autonomie,
 sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate. De
 asemenea, pe marginile terenului se mai află niște imagini, similare cu niște coduri QR,
-numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">april tag-uri</a>. Folosind biblioteca incorporată de computer vision, sunt foarte
-ușoare de folosit pentru a prelua poziția relativă față de ele. Astfel, cunoscând poziția
-lor absolută pe teren, putem obține poziția robotului pe teren destul de ușor.
+numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">april tag-uri</a>.
+Folosind biblioteca incorporată de computer vision, este foarte ușor să obținem
+poziția relativă față de ele. Astfel, cunoscând poziția lor absolută pe teren, putem
+determina poziția robotului pe teren destul de ușor.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/webcam.png" alt="Logitech C920" width="100%">
+   <p style="text-align:center"><strong>Logitech C920</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/limelight.png" alt="Limelight 3A" width="100%">
+   <p style="text-align:center">
+    <strong>
+      <a href="https://limelightvision.io/products/limelight-3a" target="_blank">Limelight 3A</a>
+    </strong>
+   </p>
+ </div>
+
+</div>
 
 #### **Alți senzori**
 
-Alți senzori sunt deseori folosiți pentru a determina dacă un element de joc a ajuns într-o
-anumită parte a robotului. În acest scop pot fi folosiți <a href="https://www.pololu.com/category/283/pololu-digital-distance-sensors" target="_blank">senzori de distanță</a>, <a href="https://www.revrobotics.com/rev-31-1557/" target="_blank">de culoare</a>,
-<a href="https://www.optimusdigital.ro/en/others/3802-ir-break-beam-sensor-5mm-leds.html?srsltid=AfmBOorV_Iwi6ldmZ035XtM8g-1rpblMwcX8gbHlA9Hg8fkli82h4HUW" target="_blank">break beams</a> sau <a href="https://sigmanortec.ro/precomanda/other-accessories/dip-2-pin-momentary-push-button-tactile-tact-switches-6-x-6-x-5mm-contact-momentary" target="_blank">butoane</a>. În mod evident, există și alte utilizări pentru acești senzori, cum ar fi
-detectarea de obstacole sau determinarea stării unor mecanisme ale robotului.
+Alți senzori sunt deseori folosiți pentru a determina stările unor mecanisme
+ale robotului sau ale elementelor de joc.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/distance-sensor.png" alt="Senzor de distanță" width="100%">
+   <p style="text-align:center"><strong>Senzor de distanță</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/color-sensor.png" alt="Senzor de culoare" width="100%">
+   <p style="text-align:center"><strong>Senzor de culoare</strong></p>
+ </div>
+
+  <div>
+    <img src="../media/break-beams.png" alt="Break beam-uri" width="100%">
+    <p style="text-align:center"><strong>Break beam-uri</strong></p>
+  </div>
+
+  <div>
+    <img src="../media/button.png" alt="Buton" width="100%">
+    <p style="text-align:center"><strong>Buton</strong></p>
+  </div>
+  
+</div>
 
 #### **Protocoale de comunicare**
 
@@ -216,6 +293,20 @@ componente electrice.
 Expansion Hub-ul este practic o extensie a Control Hub-ului, oferind aceleași porturi, însă
 fără capacitatea de a fi conectat prin Wi-Fi și fără sistemul de operare.
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/control-hub.png" alt="Control Hub" width="100%">
+   <p style="text-align:center"><strong>Control Hub</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/expansion-hub.png" alt="Expansion Hub" width="100%">
+   <p style="text-align:center"><strong>Expansion Hub</strong></p>
+ </div>
+
+</div>
+
 Din punct de vedere calitativ, au câteva lipsuri, care pot prezenta probleme. În principal,
 trebuie să ținem cont de următoarele lucruri:
 
@@ -236,17 +327,24 @@ trebuie să ținem cont de următoarele lucruri:
 
 Bateriile în FTC vin cu o serie de specificații de bază, indiferent de modelul sau de
 furnizorul de la care au fost cumpărate. Acestea funcționeaza la 12V și pot oferi un
-curent de până la 20A. Pentru a avea un robot fiabil, este important să avem grijă la
-consumul de curent al robotului în orice scenariu. Un consum prea mare de curent la un
-moment dat, poate duce la "_brownout_"(stingerea pentru o fracțiune de secundă a
-electronicii, întrerupând comunicarea cu driver station-ul și oprind mecanismele). În
-general, un robot alimentează constant și simultan cel puțin 6 motoare care suferă
-forțe relevante, ducând la un consum minim de curent deja destul de ridicat, luând în
-calcul bugetul maxim de 20A. Astfel, trebuie implementate soluții mecanice pentru a mai
-reduce din acest consum, fie prin alegerea unor rații mai "conservative" ale motoarelor
-în cadrul mecanismelor, fie folosind counter-springing pentru a reduce din forța aplicată
-asupra actuatoarelor. Un alt parametru care afectează consumul de curent este rezistența
-internă a bateriei. <a href="https://www.gobilda.com/12v-battery-health-analyzer-nimh-3000mah/" target="_blank">Analizorul de sănătate a bateriei</a> de la Gobilda ne permite măsurarea
+curent de până la 20A.
+
+<div style="display: grid; place-items: center;">
+  <img src="../media/battery.png" alt="Baterie" width="70%">
+  <p style="text-align:center"><strong>Baterie</strong></p>
+</div>
+
+Pentru a avea un robot fiabil, este important să avem grijă la consumul de curent al
+robotului în orice scenariu. Un consum prea mare de curent la un moment dat, poate
+duce la "_brownout_"(stingerea pentru o fracțiune de secundă a electronicii, întrerupând
+comunicarea cu driver station-ul și oprind mecanismele). În general, un robot alimentează
+constant și simultan cel puțin 6 motoare care suferă forțe relevante, ducând la un consum
+minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A. Astfel,
+trebuie implementate soluții mecanice pentru a mai reduce din acest consum, fie prin
+alegerea unor rații mai "conservative" ale motoarelor în cadrul mecanismelor, fie folosind
+counter-springing pentru a reduce din forța aplicată asupra actuatoarelor. Un alt parametru
+care afectează consumul de curent este rezistența internă a bateriei.
+<a href="https://www.gobilda.com/12v-battery-health-analyzer-nimh-3000mah/" target="_blank">Analizorul de sănătate a bateriei</a> ne permite măsurarea
 acesteia. O rezistență internă mai mică, permite robotului să tragă mai mult curent din
 baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și
 bugetarea acestuia.
@@ -259,7 +357,19 @@ Hub. Principalul beneficiu al lor este creșterea specificațiilor de viteză ș
 servo-urilor, oferind un bonus de performanță cu costul a unui consum de curent puțin
 mai mare.
 
-<!-- de adaugat imagini -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+ <div>
+   <img src="../media/sussy-problem-maker.png" alt="Servo Power Module" width="100%">
+   <p style="text-align:center"><strong>Servo Power Module</strong></p>
+ </div>
+
+ <div>
+   <img src="../media/servo-hub.png" alt="Servo Hub" width="100%">
+   <p style="text-align:center"><strong>Servo Hub</strong></p>
+ </div>
+
+</div>
 
 Servo Power Module (SPM) a fost primul apărut și prezintă două posibile probleme:
 
@@ -278,7 +388,5 @@ Servo Hub-ul a venit ca o îmbunătățire asupra SPM-ului, rezolvând problemel
 circuitare, simplificând procesul de cablare și aducând alte câteva feature-uri de finețe.
 Curentul maxim este tot de 15A, însă după cum am spus, nu este o problemă în adevăratul
 sens al cuvântului, doar o limitare care ar trebui respectată.
-
-<!-- add images for everything -->
 
 <hr>

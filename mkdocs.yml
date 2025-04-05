@@ -1,5 +1,5 @@
 site_name: Ghid Introductiv BrickBot
-site_url: https://brickbot-guide.com/
+site_url: https://brickbot15996.github.io/brickbot-docs/
 
 repo_url: https://github.com/BrickBot15996/brickbot-docs
 repo_name: brickbot-docs
@@ -16,6 +16,13 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
+
+plugins:
+  - social:
+      cards_layout_options:
+        background_color: "#ffd100"
+        color: black
+        font_family: Inter
 
 theme:
   name: material
@@ -43,11 +50,15 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
+      primary: custom
+      accent: custom
     - media: "(prefers-color-scheme: dark)"
       scheme: dark
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+      primary: custom
+      accent: custom
   icon:
     admonition:
       note: fontawesome/solid/bookmark
