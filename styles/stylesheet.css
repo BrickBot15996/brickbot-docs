@@ -222,27 +222,6 @@
   text-decoration: underline !important;
 }
 
-img[alt="Motor Modern Robotics 12VDC"] {
-  width: 50%;
-  height: auto;
-  float: left;
-}
-img[alt="Motor GoBilda 13.7:1"] {
-  width: 50%;
-  height: auto;
-}
-
-img[alt="Servo Axon Max"] {
-  width: 50%;
-  height: auto;
-  float: left;
-}
-
-img[alt="Servo Plex Torque"] {
-  width: 50%;
-  height: auto;
-}
-
 .md-header__button.md-logo img {
   height: 1.5rem !important;
   width: auto !important;
