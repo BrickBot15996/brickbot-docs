@@ -39,7 +39,10 @@ Foarte multe lucruri în lumea reală nu sunt liniare. În general este suficien
 marea majoritate folosind liniaritatea, însă cred că este mai important să întelegem cum
 funcționează de fapt motoarele.
 
-![Curbă de performanță a unui motor](media/motor-curve.png "Curbă de performanță a unui motor")
+<div id="motor-curve" style="display: grid; place-items: center;">
+  <img src="../media/motor-curve-light.webp" alt="Curba de performanță" width="100%">
+  <p style="text-align:center"><strong>Curba de performanță</strong></p>
+</div>
 
 Acest grafic ilustrează evoluția puterii unui motor, cu cât este aplicată mai multă forță pe
 el, până la maximul pe care îl poate duce. Cifrele pentru RPM și cuplu nu sunt de la sine

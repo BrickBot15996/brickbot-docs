@@ -22,6 +22,10 @@
     content: url("../logos/brickdocs_light.png");
   }
 
+  #motor-curve img {
+    content: url("../assembly/media/motor-curve-light.webp");
+  }
+
   --md-primary-fg-color: #ffd100;
   /* --md-primary-fg-color--light: red; */
   --md-primary-fg-color--dark: #ffd100;
@@ -130,6 +134,10 @@
 
   .md-nav__button.md-logo img {
     content: url("../logos/brickdocs_dark.png");
+  }
+
+  #motor-curve img {
+    content: url("../assembly/media/motor-curve-dark.png");
   }
 
   --md-primary-fg-color: #111111;

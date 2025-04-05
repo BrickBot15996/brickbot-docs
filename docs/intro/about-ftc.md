@@ -111,7 +111,7 @@ vizibilității echipei și programului FIRST.
 - În sezonul **CENTERSTAGE**, campioana mondială a fost o echipă din 
 România, <a href="https://ftcscout.org/teams/19066" target="_blank">AiCitizens</a>, 
 iar în sezonul **FREIGHT FRENZY**, tot o echipă din România a fost campioană mondială, 
-<a href="https://ftcscout.org/teams/17713)" target="_blank">Delta Force</a>.
+<a href="https://ftcscout.org/teams/17713" target="_blank">Delta Force</a>.
 - Suntem a patra țară ca număr de echipe, în spatele SUA, China și Canada.
 Prin urmare, în fiecare sezon trebuie să evoluăm și noi, nu doar pentru a ține pasul, ci și pentru a concura la un nivel înalt.
 <hr>
