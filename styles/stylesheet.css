@@ -104,6 +104,7 @@
 }
 
 [data-md-color-scheme="dark"] {
+  color-scheme: dark;
   .md-header__button.md-logo img {
     content: url("../logos/brickdocs_dark.png");
   }
@@ -144,7 +145,7 @@
   /* --md-primary-fg-color--light: red; */
   --md-primary-fg-color--dark: #111111;
   --md-primary-bg-color: #ffffff;
-  --md-primary-bg-color--light: rgb(226, 226, 226);
+  --md-primary-bg-color--light: rgba(226, 226, 226, 0.553);
 
   --md-accent-fg-color: #ddb506;
   /* --md-accent-fg-color--transparent: red; */
@@ -154,7 +155,7 @@
   --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #ffd100;
   --md-default-fg-color--lighter: #ffd100;
-  --md-default-fg-color--lightest: #ffffff28;
+  --md-default-fg-color--lightest: #f4e1e128;
   --md-default-bg-color: #171717;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
@@ -203,6 +204,7 @@
   --md-footer-fg-color--lighter: #5e5e5e;
   --md-footer-bg-color: var(--md-default-bg-color);
   --md-footer-bg-color--dark: #010101;
+  --md-typeset-table-color: hsla(0, 0%, 0%, 2)
 
   /* --md-shadow-z1: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.1);
@@ -226,3 +228,4 @@
   height: 1.5rem !important;
   width: auto !important;
 }
+
