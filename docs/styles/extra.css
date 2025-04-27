@@ -1,0 +1,65 @@
+/* LIGHT MODE */
+[data-md-color-scheme="light"] .md-typeset table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+[data-md-color-scheme="light"] .md-typeset th,
+[data-md-color-scheme="light"] .md-typeset td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+[data-md-color-scheme="light"] .md-typeset th {
+  font-weight: 600;
+  background-color: #f1f1f1;
+}
+
+[data-md-color-scheme="light"] .md-typeset tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+[data-md-color-scheme="light"] .md-typeset tr:hover {
+  background-color: #e9e9e9;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* DARK MODE */
+[data-md-color-scheme="dark"] .md-typeset table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #1f1f1f; /* Dark but softer background */
+  color: #ccc; /* Softer text color */
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #444; /* Subtle border */
+}
+
+[data-md-color-scheme="dark"] .md-typeset th,
+[data-md-color-scheme="dark"] .md-typeset td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+[data-md-color-scheme="dark"] .md-typeset th {
+  font-weight: 600;
+  background-color: #333; /* Dark header */
+}
+
+[data-md-color-scheme="dark"] .md-typeset tr:nth-child(odd) {
+  background-color: #282828; /* Slightly lighter rows */
+}
+
+[data-md-color-scheme="dark"] .md-typeset tr:hover {
+  background-color: #3a3a3a; /* Subtle hover effect */
+  transition: background-color 0.3s ease-in-out;
+}
+
+

@@ -95,14 +95,14 @@ inversează direcția de rotație la capăt.
 Pentru a putea alege roțile dințate potrivite ar trebui să cunoaștem următoarele
 concepte:
 
-- Pitch Diameter - ne arată distanța la care putem pune două roți dințate cu
+- **Pitch Diameter** - ne arată distanța la care putem pune două roți dințate cu
   aceleași specificații. Dacă diferă numărul de dinți între cele două roți
   putem face media aritmetică a acestor diametre pentru a determina noua
   distanță potrivită între ele.
-- MOD - reprezintă "distanța" dintre dinți. Un mod mai mic înseamnă că dinții
+- **MOD** - reprezintă "distanța" dintre dinți. Un mod mai mic înseamnă că dinții
   sunt mai apropiați, oferind un joc mai mic. Un mod mai mare înseamnă că roata
   dințată poate fi supusă unor forțe mai mari.
-- DP (Diametral Pitch) - este practic o alta formă a MOD-ului. În general, vom
+- **DP (Diametral Pitch)** - este practic o alta formă a MOD-ului. În general, vom
   lucra cu roți dințate de MOD 0.8, iar acestea sunt **aproape** la fel cu roțile
   de 32 DP. Diferența dintre ele este suficient de mică încât pot fi cuplate
   împreună.
@@ -138,12 +138,16 @@ un cuplu **foarte** mare.
 #### **Lanț**
 
 Al doilea tip de transmisie pe care îl putem folosi este cea pe lanț. Marele
-avantaj al transmisiilor pe lanț este customizabilitatea. În orice moment putem
-adăuga sau scoate câteva bucăți de lanț pentru a atinge distanța dorită, indiferent
-cât de mare ar fi ea. Totuși, în ciuda acestui avantaj, nu este folosit prea des.
+avantaj al transmisiilor pe lanț este customizabilitatea.  
+
+În orice moment putem adăuga sau scoate câteva bucăți de lanț pentru a atinge distanța dorită, indiferent
+cât de mare ar fi ea. Totuși, în ciuda acestui avantaj, nu este folosit prea des.  
+
 Marea problemă a lanțului este tensionarea. Dacă este prea slab tensionat,
 mecanismul va avea foarte mult joc. Daca este prea tare tensionat, eficiența va fi
-teribilă. Singurul scenariu în care lanțul excelează sunt mecanismele care necesită
+teribilă.  
+
+Singurul scenariu în care lanțul excelează sunt mecanismele care necesită
 un cuplu destul de mare, și nu suferă prea tare din cauza lipsei de eficiență. Un
 lanț tensionat foarte tare, deși pierde mult din eficiență, câștigă foarte mult în
 precizie.
@@ -176,8 +180,9 @@ al lanțului.
 #### **Curele**
 
 Tipul de transmisie pe care probabil o să îl folosim cel mai des este cea pe curele.
-Reprezintă oareceum o cale de mijloc între roțile dințate și lanț. Din punct de vedere
-al eficienței, dacă sunt tensionate corect stau mai bine decât transmisiile pe lanț,
+Reprezintă oareceum o cale de mijloc între roțile dințate și lanț.  
+
+Din punct de vedere al eficienței, dacă sunt tensionate corect stau mai bine decât transmisiile pe lanț,
 iar tensionarea unei curele este mai ușoară. Din punct de vedere al distanței de
 transmisie, nu este nici pe-aproape de customizabilitatea transmisiei pe lanț.
 
@@ -207,18 +212,23 @@ Există mai multe tipuri de curele, însă principalele două pe care le vom în
 Curele dințate pot fi folosite cu ajutorul unor fulii dințate. Pentru a putea alege tipul
 potrivit de fulie, ar trebui să discutăm puțin standardele de curele:
 
-- HTD (High Torque Drive) - este un tip de curea dințată care poate suferi forțe mai mari.
+- **HTD** - este un tip de curea dințată care poate suferi forțe mai mari.
   În general, prezintă distanțe mai mari între dinți și sunt mai groase, pierzând însă din
   eficiență. Cel mai des vom întâlni curele HTD5 și HTD3. Cifra din codificare este similară
   cu MOD-ul unei roți dințate.
-- GT2 - acest model este oarecum o actualizare a standardului HTD, pierzând puțin din
+- **GT2** - acest model este oarecum o actualizare a standardului HTD, pierzând puțin din
   capacitatea de a face față forțelor mai mari în schimbul unui câștig observabil la
   capitolul eficiență. Cel mai des vom întâlni curele GT2-2mm și GT2-3mm.
 
+*[HTD]: High Torque Drive
+*[HTD5]: High Torque Drive
+*[HTD3]: High Torque Drive
+
 De ce contează tipul de curea? O curea cu un MOD mai mic, va oferi mai multă precizie însă
 va fi predispusă săritului de dinți. O curea cu MOD mai mare nu prezintă acest pericol,
-dar are un impact considerabil asupra eficienței. În general, în contexte în care ne putem
-aștepta la șocuri, este recomandată alegerea unor curele cu MOD mai mare, deoarece șocurile
+dar are un impact considerabil asupra eficienței.  
+
+În general, în contexte în care ne putem aștepta la șocuri, este recomandată alegerea unor curele cu MOD mai mare, deoarece șocurile
 sunt cauza numărul 1 a săritului de dinți. Curelele cu MOD mic excelează la viteze mari.
 
 <div style="display: grid; place-items: center;">
@@ -243,7 +253,9 @@ pot fi separate în două mari grupuri:
 #### **Set-Screw**
 
 Atașamentele set-screw se fixează prin strângerea unui șurub care se fixează împingându-se
-în ax. În general, sunt întâlnite când vrem să atașăm lucruri mici, ce nu pot fi prinse
+în ax.  
+
+În general, sunt întâlnite când vrem să atașăm lucruri mici, ce nu pot fi prinse
 în alt mod. Este de preferat să evităm utilizarea lor pe cât posibil, din cauza urmelor
 lăsate pe axuri.
 
@@ -297,7 +309,9 @@ de față este destul de clar care sunt cele mai bune variante pentru un robot c
 ##### **Roțile mecanum**
 
 Roțile mecanum prezintă niște "rollere" amplasate la 45 de grade, care le fac să genereze
-mișcare pe diagonală. Folosind 4 astfel de roți într-o anumită orientare permit robotului
+mișcare pe diagonală.  
+
+Folosind 4 astfel de roți într-o anumită orientare permit robotului
 să se deplaseze în toate direcțiile (față-spate, stânga-dreapta și rotație). Sunt cele mai
 folosite roți datorită agilității pe care o oferă și simplității utilizării lor.
 
@@ -396,12 +410,16 @@ fel de element de joc, indiferent de forma pe care o are.
 O dată la câțiva ani, jocul FTC implica lansarea unor elemente de joc, deseori bile sau
 discuri. Aceste forme ne permit utilizarea lansatoarelor de tip <a href="https://www.youtube.com/shorts/AUyqmwbT5Vc" target="_blank">flywheel</a>.
 Un flywheel implică o roată care se rotește la o viteză foarte mare, pentru a imprima
-viteză altor obiecte. Câteva trăsături relevante pentru un flywheel sunt aderența și
-greutatea. De ce este importantă greutatea? Pentru că o roată grea, are mai multă inerție
-și va pierde mai puțină viteză odata cu lansarea elementelor. Singurul dezavantaj este
-timpul de accelerație pentru a aduce roata la viteză maximă, însă putem neglija asta
-dacă ținem roata la o viteză mare pe toată durata meciului. Astfel, cele mai bune roți
-de lansare pe care le avem la dispoziție sunt roțile de tracțiune de la Gobilda. Acestea
+viteză altor obiecte.  
+
+Câteva trăsături relevante pentru un flywheel sunt aderența și greutatea. 
+De ce este importantă greutatea? Pentru că o roată grea, are mai multă inerție
+și va pierde mai puțină viteză odata cu lansarea elementelor.  
+
+Singurul dezavantaj este timpul de accelerație pentru a aduce roata la viteză maximă, însă putem neglija asta
+dacă ținem roata la o viteză mare pe toată durata meciului.  
+
+Astfel, cele mai bune roți de lansare pe care le avem la dispoziție sunt roțile de tracțiune de la Gobilda. Acestea
 au un spațiu înăuntru în care putem atașa greutăți adiționale pentru a configura cum
 dorim flywheel-ul nostru.
 
@@ -461,8 +479,9 @@ permite ridicarea până în partea de sus.
 
 Tubul telescopic este un mijloc mai complicat de a realiza mișcare liniară, dar dacă este
 realizat cum trebuie și este folosit în contextul potrivit poate aduce un mare avantaj
-față de orice alt mecanism de mișcare liniară. Spre deosebire de alternative, tubul
-telescopic trebuie conceput și fabricat de către echipă. Acestea sunt făcute din țevi
+față de orice alt mecanism de mișcare liniară.  
+
+Spre deosebire de alternative, tubul telescopic trebuie conceput și fabricat de către echipă. Acestea sunt făcute din țevi
 pătrate de aluminiu, cu atașamente cu rulmenți în capăt pentru a ghida tubul următor.
 
 <div style="display: grid; place-items: center;">

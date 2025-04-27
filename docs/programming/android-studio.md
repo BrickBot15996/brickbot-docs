@@ -20,7 +20,7 @@ trebuie să ruleze și ea pe Android.
 
 În primul rând, trebuie să descărcăm <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>.
 
-Apoi, avem nevoie de un JDK (Java Development Kit) pentru a putea construi proiecte Java.
+Apoi, avem nevoie de un JDK pentru a putea construi proiecte Java.
 În FTC, este folosită versiunea <a href="https://www.oracle.com/ro/java/technologies/javase/javase8-archive-downloads.html" target="_blank">Java 8</a>.
 
 Pentru a facilita acomodarea cu mediul de lucru al FTC, recomand să descărcați proiectul <a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">ftcrobotcontroller</a>.
@@ -28,6 +28,9 @@ Acesta reprezintă aplicația de bază și mijlocul de comunicare cu aparatura a
 robot. De asemenea, conține câteva exemple de programe pentru a vă arăta bazele programării
 în FTC. Tot ceea ce vom face mai departe pentru a ne programa robotul, va veni în completarea
 acestui proiect.
+
+*[JDK]: Java Development Kit
+*[JVM]: Java Virtual Machine
 
 <!--prettier-ignore-start-->
 !!! tip "GitHub"
@@ -41,15 +44,16 @@ acestui proiect.
 ## **Componentele unui proiect Java**
 
 Am menționat mai sus termenul de **JDK**. Acesta reprezintă un set de instrumente necesare
-pentru dezvoltarea și rularea aplicațiilor Java. Fiecare versiune vine cu feature-uri
-noi, fie pentru îmbunătățirea experienței dezvoltatorului, fie pentru a îmbunătăți
-produsele finale care pot fi realizate. Cea mai recentă versiune este Java 24. Poate
-vă întrebați de ce folosim Java 8? În industrie, Java 8 și Java 11 sunt considerate cele
-mai **stabile** versiuni, iar fiind mai vechi, oferă **compatibilitate** cu aparatură mai
-veche, cum ar fi sistemul de control al roboților FTC.
+pentru dezvoltarea și rularea aplicațiilor Java.  
 
-**Gradle** este un sistem de gestionare al dependențelor (pachete externe de cod). Java este un
-limbaj în care se scrie foarte mult **boilerplate** (cod repetitiv, dar necesar), care a fost
+Fiecare versiune vine cu feature-uri noi, fie pentru îmbunătățirea experienței dezvoltatorului, fie pentru a îmbunătăți
+produsele finale care pot fi realizate.  
+
+Cea mai recentă versiune este Java 24. Poate vă întrebați de ce folosim Java 8? În industrie, Java 8 și Java 11 sunt considerate cele
+mai **stabile** versiuni, iar fiind mai vechi, oferă **compatibilitate** cu aparatură mai veche, cum ar fi sistemul de control al roboților FTC.
+
+**Gradle** este un sistem de gestionare al dependențelor (pachete externe de cod).  
+Java este un limbaj în care se scrie foarte mult **boilerplate** (cod repetitiv, dar necesar), care a fost
 deseori scris și publicat deja de alte persoane, astfel Java devenind foarte dependent de
 pachete externe. De aceea, este necesar un sistem precum Gradle.
 
@@ -62,8 +66,8 @@ pachete externe. De aceea, este necesar un sistem precum Gradle.
 <!--prettier-ignore-end-->
 
 O noțiune pe care s-ar putea să o întâlniți când navigați prin Android Studio este **JVM**.
-JVM sau Java Virtual Machine este componenta care oferă acestui limbaj **portabilitatea**
-pe care o are. Codul este compilat în **bytecode** (format universal de instrucțiuni) care
+JVM este componenta care oferă acestui limbaj **portabilitatea** pe care o are. 
+Codul este compilat în **bytecode** (format universal de instrucțiuni) care
 poate rula pe o varietate de sisteme de operare cu ajutorul mașinii virtuale Java. Această
 portabilitate este unul dintre **atuurile principale** ale Java.
 

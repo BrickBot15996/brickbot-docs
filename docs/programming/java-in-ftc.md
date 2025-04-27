@@ -2,7 +2,7 @@
 
 ## **Learn Java For FTC**
 
-<a href="/programming/media/LearnJavaForFTC.pdf" target="_blank">_Learn Java for FTC_</a> este o carte destinată în special începătorilor, realizată de
+<a href="https://github.com/alan412/LearnJavaForFTC" target="_blank">_Learn Java for FTC_</a> este o carte destinată în special începătorilor, realizată de
 Alan Smith, mentorul echipei <a href="https://ftcscout.org/teams/16072" target="_blank">16072 Quantum Quacks</a>,
 ce adună la un loc toate conceptele fundamentale ale programării în FTC. Aceasta parcurge
 totul, de la noțiuni introductive despre limbajul Java până la modurile de utilizare

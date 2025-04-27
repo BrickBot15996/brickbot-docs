@@ -1,5 +1,5 @@
 ---
-title: Welcome to BrickBot
+title: Acasă
 hide:
   - navigation
   - toc

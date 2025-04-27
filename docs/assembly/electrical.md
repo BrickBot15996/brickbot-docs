@@ -3,7 +3,8 @@
 ## **La ce ne referim prin componente electronice?**
 
 Componentele electronice reprezintă o gamă destul de largă de produse. În primul rând, este
-vorba despre actuatoare (motoare și servomotoare), mai exact _mașinării_ ce produc mișcare.
+vorba despre actuatoare (motoare și servomotoare), mai exact _mașinării_ ce produc mișcare.  
+
 În al doilea rând, este vorba despre senzorii folosiți pentru ca robotul să poată _înțelege_
 mediul înconjurător. Nu în ultimul rând, ne referim la sistemul de control, cel care face
 posibilă utilizarea tuturor celorlaltor componente menționate anterior.
@@ -32,17 +33,17 @@ la fel. Cele mai des folosite sunt motoarele <a href="https://www.gobilda.com/mo
 
 Pentru a putea înțelege mai bine motoarele este nevoie de câteva concepte de bază:
 
-- Cuplul - forța pe care o poate exercita un motor la capătul unui braț de 1cm. Se măsoară
+- **Cuplul** - forța pe care o poate exercita un motor la capătul unui braț de 1cm. Se măsoară
   în kg⋅cm sau N⋅m
-- RPM - numărul de rotații pe minut pe care îl realizează un motor la curent maxim. Acesta
+- **RPM** - numărul de rotații pe minut pe care îl realizează un motor la curent maxim. Acesta
   este invers proporțional cuplului.
-- Rație - numărul de rotații care intră, raportat la câte ies. De exemplu 13.7:1 înseamnă că
-  pentru fiecare 13.7 rotații ale motorului, vom avea o rotație la ieșire. Rațiile permit
-  oarecum modificarea specificațiilor motorului. Această rație de 13.7:1 face ca motorul să fie
-  de 13.7 ori mai lent, însă îi oferă un cuplu de 13.7 ori mai mare. În general vom întâlni
-  două tipuri de rații - interne și externe. Cele interne sunt cele realizate de cutia de viteze
-  a motorului. Cele externe sunt cele realizate prin transmisii pe curele, roți dințate sau
-  orice altceva. Astfel putem obține orice viteză/cuplu dorim pentru un anumit mecanism.
+- **Rație** - numărul de rotații care intră, raportat la câte ies.  
+  De exemplu 13.7:1 înseamnă că pentru fiecare 13.7 rotații ale motorului, vom avea o rotație la ieșire. Rațiile permit
+  oarecum modificarea specificațiilor motorului.  
+  Această rație de 13.7:1 face ca motorul să fie de 13.7 ori mai lent, însă îi oferă un cuplu de 13.7 ori mai mare. În general vom întâlni
+  două tipuri de rații - interne și externe.  
+  Cele interne sunt cele realizate de cutia de viteze a motorului.  
+  Cele externe sunt cele realizate prin transmisii pe curele, roți dințate sau orice altceva. Astfel putem obține orice viteză/cuplu dorim pentru un anumit mecanism.
 
 #### **Curbele de performanță ale motoarelor**
 
@@ -56,10 +57,13 @@ funcționează de fapt motoarele.
 </div>
 
 Acest grafic ilustrează evoluția puterii unui motor, cu cât este aplicată mai multă forță pe
-el, până la maximul pe care îl poate duce. Cifrele pentru RPM și cuplu nu sunt de la sine
-relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor. Ce este cel mai
-important de ținut cont, este faptul că motorul produce cea mai mare putere la jumătate din
-cuplul său maxim. Concluzia care trebuie trasă de aici este că, pentru un mecanism care
+el, până la maximul pe care îl poate duce.  
+
+Cifrele pentru RPM și cuplu nu sunt de la sine relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor. 
+Ce este cel mai important de ținut cont, este faptul că motorul produce cea mai mare putere la jumătate din
+cuplul său maxim.  
+
+Concluzia care trebuie trasă de aici este că, pentru un mecanism care
 vrem să ruleze la potențial maxim, rația optimă este cea care oferă cuplu dublu față de
 forța aplicată pe motor. Această opțiune însă, nu este mereu cea corectă și vom vedea la
 secțiunea despre <a href="#bateriile-si-curentul">baterie și curent</a> de ce.
@@ -77,20 +81,19 @@ rația adecvată unor mecanisme des folosite în FTC:
 Ceva de care ar trebui să ținem cont, este protejarea motoarelor. Practici bune în acest
 scop sunt:
 
-- Evitarea direct drive - direct drive înseamnă atașarea mecanismului pe care îl
-  angrenează direct pe axul motorului. Această practică expune motorului la daune
-  interne, dar și la îndoirea axului în cazul în care sunt aplicate în mod direct șocuri pe
-  acesta. Alternativa constă în folosirea de transmisii externe despre care vom discuta
+- **Evitarea direct drive** - direct drive înseamnă atașarea mecanismului pe care îl
+  angrenează direct pe axul motorului.  
+  Această practică expune motorului la daune interne, dar și la îndoirea axului în cazul în 
+  care sunt aplicate în mod direct șocuri pe acesta. Alternativa constă în folosirea de transmisii externe despre care vom discuta
   în secțiunea următoare.
-- Gestionarea consumului de curent - consumul de curent crește odată cu forța aplicată
-  pe un motor. Conform curbei de performanță, puterea maximă produsă de motor se
-  află la jumătate din cuplul maxim. În general, nu este bine să depășim acest prag,
-  deoarece începem să pierdem și din performanța mecanismului și să consumăm
-  excesiv de mult curent, punând astfel sub risc motorul.
-- Atenția la blocaje - dacă un motor nu se mai poate mișca, însă continuă să fie
+- **Gestionarea consumului de curent** - consumul de curent crește odată cu forța aplicată
+  pe un motor.  
+  Conform curbei de performanță, puterea maximă produsă de motor se află la jumătate din cuplul maxim. În general, nu este bine să depășim acest prag,
+  deoarece începem să pierdem și din performanța mecanismului și să consumăm excesiv de mult curent, punând astfel sub risc motorul.
+- **Atenția la blocaje** - dacă un motor nu se mai poate mișca, însă continuă să fie
   alimentat, acesta va continua să tragă din ce în ce mai mult curent până când va
-  reuși să se miște sau se va arde. De aceea, ar trebui să avem foarte mare grijă,
-  în special din punct de vedere al programării, în momentul în care lucrăm cu motoare.
+  reuși să se miște sau se va arde.  
+  De aceea, ar trebui să avem foarte mare grijă, în special din punct de vedere al programării, în momentul în care lucrăm cu motoare.
 
 <hr>
 
@@ -140,7 +143,8 @@ Un aspect foarte important de prevenit sunt șocurile. În general, brațele în
 angrenate folosind servo-uri, iar tendința generală este să folosim brațe destul de lungi,
 deoarece pot simplifica anumite sarcini ale jocului. În acele situații totuși, șocul în
 momentul în care brațul încearcă să se oprească devine foarte mare, riscând stricarea
-servo-urilor. Aici putem implementa conceptul de counter-springing, folosind un arc sau
+servo-urilor.  
+Aici putem implementa conceptul de counter-springing, folosind un arc sau
 un elastic pentru a reduce din inerție, reducând șocul final. Puteți vedea implementarea
 în <a href="https://www.youtube.com/shorts/cLI090Csmi8" target="_blank">acest</a> filmuleț folosind câteva arcuri pe un braț. De asemenea, <a href="https://www.youtube.com/watch?v=QsBT6OzlN24&t=84s&ab_channel=Technicbots8565" target="_blank">acest</a> workshop ținut de
 echipa <a href="https://ftcscout.org/teams/14361?season=2022" target="_blank">14361 Robolobos</a> ilustrează mai multe implementări de counter-springing și pentru
@@ -161,17 +165,20 @@ vorba de perioada de autonomie sau cea de teleoperare.
 
 Pentru perioada de autonomie, aspectul cel mai important este localizarea. În acest sens,
 există niște senzori ce poartă numele de encoder. Scopul lor este măsurarea poziției de
-rotație. La ce ne poate folosi acest lucru? De exemplu, în cazul localizării, folosim o roată
+rotație.  
+
+La ce ne poate folosi acest lucru? De exemplu, în cazul localizării, folosim o roată
 care merge de-a lungul terenului odată cu robotul. Dacă știm câte unități s-a rotit această
 roată, putem face conversia în cm pentru a afla cât de mult s-a deplasat robotul nostru.
-Encoderele nu sunt folosite doar în cazul localizării robotului. Ele pot fi folosite și pentru
-a determina cât de mult s-a extins un lift, folosind rotația motorului de exemplu. Encoderele
+Encoderele nu sunt folosite doar în cazul localizării robotului.  
+
+Ele pot fi folosite și pentru a determina cât de mult s-a extins un lift, folosind rotația motorului de exemplu. Encoderele
 îți permit să cunoști starea în care se află un mecanism. Există 2 tipuri principale de
 encoder:
 
-- Relativ - acesta are la început o valoare 0, iar deplasarea este determinată față de acel
+- **Relativ** - acesta are la început o valoare 0, iar deplasarea este determinată față de acel
   0 arbitrar.
-- Absolut - acesta are un interval de 360 de grade și oferă poziția pe acel interval,
+- **Absolut** - acesta are un interval de 360 de grade și oferă poziția pe acel interval,
   similar cu poziția servo-urilor. În momentul în care depășește cele 360 de grade,
   începe iarăși de la 0.
 
@@ -193,8 +200,9 @@ encoder:
 
 Un element nelipsit din jocurile FTC este utilizarea de computer vision folosind o cameră.
 Aceasta poate fi folosită pentru detectarea unor elemente specifice perioadei de autonomie,
-sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate. De
-asemenea, pe marginile terenului se mai află niște imagini, similare cu niște coduri QR,
+sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate.  
+
+De asemenea, pe marginile terenului se mai află niște imagini, similare cu niște coduri QR,
 numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">april tag-uri</a>.
 Folosind biblioteca incorporată de computer vision, este foarte ușor să obținem
 poziția relativă față de ele. Astfel, cunoscând poziția lor absolută pe teren, putem
@@ -263,10 +271,9 @@ pe cât posibil senzorii I²C.
 
 #### **IMU**
 
-IMU(Intertial Measurement Unit) este un modul ce permite măsurarea orientării față de cele
-3 axe ale sistemului tridimensional, dar și alți parametrii precum accelerația și viteza pe
-fiecare axă. Un astfel de IMU este integrat în <a href="#control-hub-si-expansion-hub">Control Hub</a>, însă
-trebuie ținut cont că acesta folosește protocolul I²C.
+IMU este un modul ce permite măsurarea orientării față de cele 3 axe ale sistemului tridimensional, dar și alți parametrii precum accelerația și viteza pe fiecare axă. Un astfel de IMU este integrat în <a href="#control-hub-si-expansion-hub">Control Hub</a>, însă trebuie ținut cont că acesta folosește protocolul I²C.
+
+*[IMU]: Inertial Measurement Unit
 
 Există, de asemenea, alte 2 produse foarte interesante ce conțin un IMU:
 
@@ -310,18 +317,18 @@ fără capacitatea de a fi conectat prin Wi-Fi și fără sistemul de operare.
 Din punct de vedere calitativ, au câteva lipsuri, care pot prezenta probleme. În principal,
 trebuie să ținem cont de următoarele lucruri:
 
-- Nu folosiți portul USB 2.0 - acesta este conectat la placa de rețea, iar o problemă des
+- **Nu folosiți portul USB 2.0** - acesta este conectat la placa de rețea, iar o problemă des
   întâlnită este ca odată cu o descărcare electrică suferită pe acest port, să se ardă
   placa de rețea, făcând imposibilă conectarea prin Wi-Fi la Control Hub, această
   componentă devenind complet inutilă. Puteți citi mai multe <a href="https://cookbook.dairy.foundation/electrical/why_we_should_only_use_usb_30.html" target="_blank">aici</a>.
-- Porturile de encoder - din cauza electronicii interne, porturile de encoder 0-3 se
+- **Porturile de encoder** - din cauza electronicii interne, porturile de encoder 0-3 se
   comportă diferit față de porturile 1-2, porturile 1-2 fiind limitate la numărul de impulsuri
   pe care le pot măsura. Puteți citi mai multe în <a href="https://cookbook.dairy.foundation/electrical/how_to_wire_odometry_pods.html" target="_blank">această</a> postare și resursele de acolo
   care prezintă mai bine cauza problemei.
-- Porturile de servo - acestea sunt conectate între ele două câte două (0-1, 2-3 și 4-5) și pot
+- **Porturile de servo** - acestea sunt conectate între ele două câte două (0-1, 2-3 și 4-5) și pot
   scoate în total 4A de curent pe 2 porturi, de aceea ar trebui să aveți grijă ce și
-  unde mufați în momentul în care folosiți servo-uri mai puternice (Axon, Plex etc.). Dacă
-  unul dintre porturi se strică în vreun fel, nici cel asociat lui nu va mai funcționa.
+  unde mufați în momentul în care folosiți servo-uri mai puternice (Axon, Plex etc.).  
+  Dacă unul dintre porturi se strică în vreun fel, nici cel asociat lui nu va mai funcționa.
 
 #### **Bateriile și curentul**
 
@@ -335,25 +342,30 @@ curent de până la 20A.
 </div>
 
 Pentru a avea un robot fiabil, este important să avem grijă la consumul de curent al
-robotului în orice scenariu. Un consum prea mare de curent la un moment dat, poate
-duce la "_brownout_"(stingerea pentru o fracțiune de secundă a electronicii, întrerupând
-comunicarea cu driver station-ul și oprind mecanismele). În general, un robot alimentează
+robotului în orice scenariu.  
+
+Un consum prea mare de curent la un moment dat, poate duce la brownout. În general, un robot alimentează
 constant și simultan cel puțin 6 motoare care suferă forțe relevante, ducând la un consum
-minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A. Astfel,
-trebuie implementate soluții mecanice pentru a mai reduce din acest consum, fie prin
+minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A.  
+
+Astfel, trebuie implementate soluții mecanice pentru a mai reduce din acest consum, fie prin
 alegerea unor rații mai "conservative" ale motoarelor în cadrul mecanismelor, fie folosind
-counter-springing pentru a reduce din forța aplicată asupra actuatoarelor. Un alt parametru
-care afectează consumul de curent este rezistența internă a bateriei.
+counter-springing pentru a reduce din forța aplicată asupra actuatoarelor.   
+
+Un alt parametru care afectează consumul de curent este rezistența internă a bateriei.
 <a href="https://www.gobilda.com/12v-battery-health-analyzer-nimh-3000mah/" target="_blank">Analizorul de sănătate a bateriei</a> ne permite măsurarea
 acesteia. O rezistență internă mai mică, permite robotului să tragă mai mult curent din
-baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și
-bugetarea acestuia.
+baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și bugetarea acestuia.
+
+*[brownout]: Stingerea pentru o fracțiune de secundă a electronicii, întrerupând comunicarea cu driver station-ul și oprind mecanismele
 
 #### **Servo Power Module și Servo Hub**
 
 Servo Power Module și Servo Hub sunt două componente de electronică ce permit
 alimentarea a 6 servo-uri cu 6V, în loc de cei 5V furnizați de Control Hub și de Expansion
-Hub. Principalul beneficiu al lor este creșterea specificațiilor de viteză și cuplu ale
+Hub.  
+
+Principalul beneficiu al lor este creșterea specificațiilor de viteză și cuplu ale
 servo-urilor, oferind un bonus de performanță cu costul a unui consum de curent puțin
 mai mare.
 
@@ -371,18 +383,20 @@ mai mare.
 
 </div>
 
-Servo Power Module (SPM) a fost primul apărut și prezintă două posibile probleme:
+**SPM** a fost primul apărut și prezintă două posibile probleme:
 
-- Predispoziția la scurt circuit - pentru a evita asta este recomandată acoperirea
+- **Predispoziția la scurt circuit** - pentru a evita asta este recomandată acoperirea
   conectorilor șurub și a porturilor rămase goale cu bandă adeziva, deoarece orice
   reziduu metal poate provoca un scurt circuit.
-- Curentul total furnizat redus - curentul pe care îl poate furniza un SPM este de 15A.
+- **Curentul total furnizat redus** - curentul pe care îl poate furniza un SPM este de 15A.
   Scopul principal de utilizare al său este alimentarea de servo-uri cu consum ridicat,
   iar de exemplu servo-urile Axon și Plex care definesc această categorie au consumul
   maxim de câte 4A fiecare, astfel fiind limitat la alimentarea a 4 servo-uri în loc de
-  maximul de 6. Aceasta nu este neapărat o problemă, deoarece consumul acestor
-  servo-uri nu va atinge în mod realist 4A vreodată, însă este recomandat să tratăm totul
-  ca în cazul extrem, pentru a evita apariția de defecțiuni foarte ușoare de prevenit.
+  maximul de 6.  
+  Aceasta nu este neapărat o problemă, deoarece consumul acestor servo-uri nu va atinge în mod realist 4A vreodată, 
+  însă este recomandat să tratăm totul ca în cazul extrem, pentru a evita apariția de defecțiuni foarte ușoare de prevenit.
+
+*[SPM]: Servo Power Module
 
 Servo Hub-ul a venit ca o îmbunătățire asupra SPM-ului, rezolvând problemele de scurt
 circuitare, simplificând procesul de cablare și aducând alte câteva feature-uri de finețe.

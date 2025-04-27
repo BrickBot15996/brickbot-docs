@@ -11,11 +11,17 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
   - attr_list
   - md_in_html
+  - abbr
+  - pymdownx.snippets
 
 plugins:
   - social:
@@ -38,6 +44,7 @@ theme:
     - navigation.footer
     - toc.follow
     - search.suggest
+    - content.tooltips
   font:
     text: "Inter"
     code: "JetBrains Mono"
@@ -74,15 +81,21 @@ extra:
       link: mailto:brickbot@liceulunirea.ro
     - icon: fontawesome/solid/globe
       link: https://brickbot.ro
+  analytics:
+    provider: google
+    property: G-W1ZNY8V2SQ
+
 
 extra_css:
   - styles/stylesheet.css # Custom CSS to switch themes
+  - styles/extra.css
 docs_dir: "docs"
 nav:
   - Acasă: index.md
   - Introducere:
       - Despre FTC: intro/about-ftc.md
       - Mentalitate de succes: intro/right-mentality.md
+      - Organizarea echipei: intro/team-environment.md
   - Proiectare 3D:
       - Ce este Proiectarea 3D?: cad/cad.md
       - Onshape: cad/onshape.md

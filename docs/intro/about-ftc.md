@@ -77,12 +77,14 @@ un PDF ce conține întrebările pe care ar putea să le pună jurații fie la s
 
 ## **Outreach și impact în comunitate**
 
+!!!tip Sfat
+    **Reach** = numărul total de persoane care au aflat despre echipă printr-un anumit mediu sau eveniment;
+    necesită o interacțiune reală sau o observare directă, nu doar apariția echipei în fundal  
+
 Unul dintre scopurile unei echipe FTC e să atragă cât mai mulți oameni în FIRST și în domeniul STEAM.
 Sunt multe tipuri de activități și evenimente pe care o echipă le poate organiza în comunitatea locală sau FIRST.
 
-Cele care contează cel mai mult și care asigură un premiu bun sunt cele care au **reach**
-(= numărul total de persoane care au aflat despre echipă printr-un anumit mediu sau eveniment;
-necesită o interacțiune reală sau o observare directă, nu doar apariția echipei în fundal).
+Cele care contează cel mai mult și care asigură un premiu bun sunt cele care au **reach**.
 
 <!--prettier-ignore-start-->
 !!! example "Exemple"
@@ -107,7 +109,8 @@ vizibilității echipei și programului FIRST.
 
 ## **Comunitatea din România**
 
-<p>Nivelul de competiție din țara noastră se ridică exponențial de la an la an.  </p>
+Nivelul de competiție din țara noastră se ridică exponențial de la an la an.  
+
 - În sezonul **CENTERSTAGE**, campioana mondială a fost o echipă din 
 România, <a href="https://ftcscout.org/teams/19066" target="_blank">AiCitizens</a>, 
 iar în sezonul **FREIGHT FRENZY**, tot o echipă din România a fost campioană mondială, 
