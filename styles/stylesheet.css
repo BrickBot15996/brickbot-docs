@@ -205,8 +205,7 @@
   --md-footer-bg-color: var(--md-default-bg-color);
   --md-footer-bg-color--dark: #010101;
   --md-typeset-table-color: hsla(0, 0%, 0%, 2)
-
-  /* --md-shadow-z1: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
+    /* --md-shadow-z1: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.1);
 
   --md-shadow-z2: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.1),
@@ -214,8 +213,7 @@
 
   --md-shadow-z3: 0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
     0 0 #{px2rem(1px)} hsla(0, 0%, 0%, 0.35); */
-
-  img[alt="Curbă de performanță a unui motor"] {
+    img[alt= "Curbă de performanță a unui motor"] {
     filter: invert(1);
   }
 }
@@ -228,4 +226,3 @@
   height: 1.5rem !important;
   width: auto !important;
 }
-
