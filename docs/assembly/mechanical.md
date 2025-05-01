@@ -56,6 +56,14 @@ mai multe componente deodată.
     poate duce la o pierdere foarte mare de eficiență.
 <!--prettier-ignore-end-->
 
+<div style="text-align: center;">
+  <a href="https://cad.onshape.com/documents/10d9219be0f414ba91ba8b1b/w/18ddb091ec77807ed39ca49e/e/c674096e719b640adcb88967" target="_blank"
+     style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+    <img src="../media/live-axle.png"
+         style="max-width: 100%; height: auto; display: block; transition: transform 0.3s ease, filter 0.3s ease;">
+  </a>
+</div>
+
 #### **Ax mort**
 
 Axul mort constă într-un ax fixat, iar componentele se rotesc în jurul acestuia.
@@ -68,11 +76,34 @@ susțină componentele amplasate pe ax, nu axul în sine.
     În general, este preferată folosirea axurilor moarte pe oriunde este posibil.
 <!--prettier-ignore-end-->
 
+<div style="text-align: center;">
+  <a href="https://cad.onshape.com/documents/b4dfc8f38706155581235565/w/d3a550cb2417eeac5f5b6b23/e/09f0b4ea50ab031c9e8aad86" target="_blank"
+     style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+    <img src="../media/dead-axle.png"
+         style="max-width: 100%; height: auto; display: block; transition: transform 0.3s ease, filter 0.3s ease;">
+  </a>
+</div>
+
 #### **Ax zombie**
 
 Axul "zombie" reprezintă o combinație dintre cele două. Ce înseamnă? Practic, unele
 componente folosesc axul ca pe un ax viu, altele ca pe un ax mort. Axul zombie permite
 angrenarea mai multor mecanisme pe același punct de rotație.
+
+<div style="text-align: center;">
+  <a href="https://cad.onshape.com/documents/37df98206a141e5b43a232fd/w/011b1fe7fa3eaff93c3473c3/e/c1580fbc149f61bd750db875" target="_blank"
+     style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+    <img src="../media/zombie-axle.png"
+         style="max-width: 100%; height: auto; display: block; transition: transform 0.3s ease, filter 0.3s ease;">
+  </a>
+</div>
+
+<style>
+  a[href*="cad.onshape.com"]:hover {
+    transform: scale(1.05) translateY(-5px);
+    filter: brightness(1.2);
+  }
+</style>
 
 <hr>
 
@@ -138,14 +169,14 @@ un cuplu **foarte** mare.
 #### **Lanț**
 
 Al doilea tip de transmisie pe care îl putem folosi este cea pe lanț. Marele
-avantaj al transmisiilor pe lanț este customizabilitatea.  
+avantaj al transmisiilor pe lanț este customizabilitatea.
 
 În orice moment putem adăuga sau scoate câteva bucăți de lanț pentru a atinge distanța dorită, indiferent
-cât de mare ar fi ea. Totuși, în ciuda acestui avantaj, nu este folosit prea des.  
+cât de mare ar fi ea. Totuși, în ciuda acestui avantaj, nu este folosit prea des.
 
 Marea problemă a lanțului este tensionarea. Dacă este prea slab tensionat,
 mecanismul va avea foarte mult joc. Daca este prea tare tensionat, eficiența va fi
-teribilă.  
+teribilă.
 
 Singurul scenariu în care lanțul excelează sunt mecanismele care necesită
 un cuplu destul de mare, și nu suferă prea tare din cauza lipsei de eficiență. Un
@@ -180,7 +211,7 @@ al lanțului.
 #### **Curele**
 
 Tipul de transmisie pe care probabil o să îl folosim cel mai des este cea pe curele.
-Reprezintă oareceum o cale de mijloc între roțile dințate și lanț.  
+Reprezintă oareceum o cale de mijloc între roțile dințate și lanț.
 
 Din punct de vedere al eficienței, dacă sunt tensionate corect stau mai bine decât transmisiile pe lanț,
 iar tensionarea unei curele este mai ușoară. Din punct de vedere al distanței de
@@ -220,13 +251,12 @@ potrivit de fulie, ar trebui să discutăm puțin standardele de curele:
   capacitatea de a face față forțelor mai mari în schimbul unui câștig observabil la
   capitolul eficiență. Cel mai des vom întâlni curele GT2-2mm și GT2-3mm.
 
-*[HTD]: High Torque Drive
-*[HTD5]: High Torque Drive
-*[HTD3]: High Torque Drive
+_[HTD]: High Torque Drive
+_[HTD5]: High Torque Drive \*[HTD3]: High Torque Drive
 
 De ce contează tipul de curea? O curea cu un MOD mai mic, va oferi mai multă precizie însă
 va fi predispusă săritului de dinți. O curea cu MOD mai mare nu prezintă acest pericol,
-dar are un impact considerabil asupra eficienței.  
+dar are un impact considerabil asupra eficienței.
 
 În general, în contexte în care ne putem aștepta la șocuri, este recomandată alegerea unor curele cu MOD mai mare, deoarece șocurile
 sunt cauza numărul 1 a săritului de dinți. Curelele cu MOD mic excelează la viteze mari.
@@ -253,7 +283,7 @@ pot fi separate în două mari grupuri:
 #### **Set-Screw**
 
 Atașamentele set-screw se fixează prin strângerea unui șurub care se fixează împingându-se
-în ax.  
+în ax.
 
 În general, sunt întâlnite când vrem să atașăm lucruri mici, ce nu pot fi prinse
 în alt mod. Este de preferat să evităm utilizarea lor pe cât posibil, din cauza urmelor
@@ -309,7 +339,7 @@ de față este destul de clar care sunt cele mai bune variante pentru un robot c
 ##### **Roțile mecanum**
 
 Roțile mecanum prezintă niște "rollere" amplasate la 45 de grade, care le fac să genereze
-mișcare pe diagonală.  
+mișcare pe diagonală.
 
 Folosind 4 astfel de roți într-o anumită orientare permit robotului
 să se deplaseze în toate direcțiile (față-spate, stânga-dreapta și rotație). Sunt cele mai
@@ -410,14 +440,14 @@ fel de element de joc, indiferent de forma pe care o are.
 O dată la câțiva ani, jocul FTC implica lansarea unor elemente de joc, deseori bile sau
 discuri. Aceste forme ne permit utilizarea lansatoarelor de tip <a href="https://www.youtube.com/shorts/AUyqmwbT5Vc" target="_blank">flywheel</a>.
 Un flywheel implică o roată care se rotește la o viteză foarte mare, pentru a imprima
-viteză altor obiecte.  
+viteză altor obiecte.
 
-Câteva trăsături relevante pentru un flywheel sunt aderența și greutatea. 
+Câteva trăsături relevante pentru un flywheel sunt aderența și greutatea.
 De ce este importantă greutatea? Pentru că o roată grea, are mai multă inerție
-și va pierde mai puțină viteză odata cu lansarea elementelor.  
+și va pierde mai puțină viteză odata cu lansarea elementelor.
 
 Singurul dezavantaj este timpul de accelerație pentru a aduce roata la viteză maximă, însă putem neglija asta
-dacă ținem roata la o viteză mare pe toată durata meciului.  
+dacă ținem roata la o viteză mare pe toată durata meciului.
 
 Astfel, cele mai bune roți de lansare pe care le avem la dispoziție sunt roțile de tracțiune de la Gobilda. Acestea
 au un spațiu înăuntru în care putem atașa greutăți adiționale pentru a configura cum
@@ -479,7 +509,7 @@ permite ridicarea până în partea de sus.
 
 Tubul telescopic este un mijloc mai complicat de a realiza mișcare liniară, dar dacă este
 realizat cum trebuie și este folosit în contextul potrivit poate aduce un mare avantaj
-față de orice alt mecanism de mișcare liniară.  
+față de orice alt mecanism de mișcare liniară.
 
 Spre deosebire de alternative, tubul telescopic trebuie conceput și fabricat de către echipă. Acestea sunt făcute din țevi
 pătrate de aluminiu, cu atașamente cu rulmenți în capăt pentru a ghida tubul următor.
