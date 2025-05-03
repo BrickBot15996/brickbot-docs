@@ -251,8 +251,11 @@ potrivit de fulie, ar trebui să discutăm puțin standardele de curele:
   capacitatea de a face față forțelor mai mari în schimbul unui câștig observabil la
   capitolul eficiență. Cel mai des vom întâlni curele GT2-2mm și GT2-3mm.
 
-_[HTD]: High Torque Drive
-_[HTD5]: High Torque Drive \*[HTD3]: High Torque Drive
+<!--prettier-ignore-start-->
+*[HTD]: High Torque Drive
+*[HTD3]: High Torque Drive
+*[HTD5]: High Torque Drive
+<!--prettier-ignore-end-->
 
 De ce contează tipul de curea? O curea cu un MOD mai mic, va oferi mai multă precizie însă
 va fi predispusă săritului de dinți. O curea cu MOD mai mare nu prezintă acest pericol,

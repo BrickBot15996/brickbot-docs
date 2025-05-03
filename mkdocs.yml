@@ -85,7 +85,6 @@ extra:
     provider: google
     property: G-W1ZNY8V2SQ
 
-
 extra_css:
   - styles/stylesheet.css # Custom CSS to switch themes
   - styles/extra.css
@@ -102,9 +101,9 @@ nav:
       - Printarea 3D: cad/3d-printing.md
   - Mecanică:
       - Furnizori principali: assembly/vendors.md
-      - Componentele electronice: assembly/electrical.md
       - Hardware și unelte: assembly/tools-and-fasteners.md
       - Componentele mecanice: assembly/mechanical.md
+      - Componentele electronice: assembly/electrical.md
       - Mecanisme des întâlnite: assembly/mechanisms.md
       - Cum se concepe un robot?: assembly/robot.md
       - Cum îți faci robotul ușor de condus?: assembly/driveable-robot.md

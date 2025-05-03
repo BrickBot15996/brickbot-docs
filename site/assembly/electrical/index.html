@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://brickbot15996.github.io/brickbot-docs/assembly/electrical/">
       
       
-        <link rel="prev" href="../vendors/">
+        <link rel="prev" href="../mechanical/">
       
       
-        <link rel="next" href="../tools-and-fasteners/">
+        <link rel="next" href="../mechanisms/">
       
       
       <link rel="icon" href="../../logos/brickdocs_light.png">
@@ -786,6 +786,52 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools-and-fasteners/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hardware și unelte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mechanical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Componentele mecanice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1010,52 +1056,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tools-and-fasteners/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Hardware și unelte
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../mechanical/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Componentele mecanice
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1857,7 +1857,7 @@
 <h1 id="componentele-electronice"><strong>Componentele electronice</strong></h1>
 <h2 id="la-ce-ne-referim-prin-componente-electronice"><strong>La ce ne referim prin componente electronice?</strong></h2>
 <p>Componentele electronice reprezintă o gamă destul de largă de produse. În primul rând, este
-vorba despre actuatoare (motoare și servomotoare), mai exact <em>mașinării</em> ce produc mișcare.  </p>
+vorba despre actuatoare (motoare și servomotoare), mai exact <em>mașinării</em> ce produc mișcare.</p>
 <p>În al doilea rând, este vorba despre senzorii folosiți pentru ca robotul să poată <em>înțelege</em>
 mediul înconjurător. Nu în ultimul rând, ne referim la sistemul de control, cel care face
 posibilă utilizarea tuturor celorlaltor componente menționate anterior.</p>
@@ -1905,10 +1905,10 @@ funcționează de fapt motoarele.</p>
 </div>
 
 <p>Acest grafic ilustrează evoluția puterii unui motor, cu cât este aplicată mai multă forță pe
-el, până la maximul pe care îl poate duce.  </p>
-<p>Cifrele pentru RPM și cuplu nu sunt de la sine relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor. 
+el, până la maximul pe care îl poate duce.</p>
+<p>Cifrele pentru RPM și cuplu nu sunt de la sine relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor.
 Ce este cel mai important de ținut cont, este faptul că motorul produce cea mai mare putere la jumătate din
-cuplul său maxim.  </p>
+cuplul său maxim.</p>
 <p>Concluzia care trebuie trasă de aici este că, pentru un mecanism care
 vrem să ruleze la potențial maxim, rația optimă este cea care oferă cuplu dublu față de
 forța aplicată pe motor. Această opțiune însă, nu este mereu cea corectă și vom vedea la
@@ -1927,7 +1927,7 @@ scop sunt:</p>
 <ul>
 <li><strong>Evitarea direct drive</strong> - direct drive înseamnă atașarea mecanismului pe care îl
   angrenează direct pe axul motorului.<br />
-  Această practică expune motorului la daune interne, dar și la îndoirea axului în cazul în 
+  Această practică expune motorului la daune interne, dar și la îndoirea axului în cazul în
   care sunt aplicate în mod direct șocuri pe acesta. Alternativa constă în folosirea de transmisii externe despre care vom discuta
   în secțiunea următoare.</li>
 <li><strong>Gestionarea consumului de curent</strong> - consumul de curent crește odată cu forța aplicată
@@ -1999,11 +1999,11 @@ vorba de perioada de autonomie sau cea de teleoperare.</p>
 <h4 id="encodere"><strong>Encodere</strong></h4>
 <p>Pentru perioada de autonomie, aspectul cel mai important este localizarea. În acest sens,
 există niște senzori ce poartă numele de encoder. Scopul lor este măsurarea poziției de
-rotație.  </p>
+rotație.</p>
 <p>La ce ne poate folosi acest lucru? De exemplu, în cazul localizării, folosim o roată
 care merge de-a lungul terenului odată cu robotul. Dacă știm câte unități s-a rotit această
 roată, putem face conversia în cm pentru a afla cât de mult s-a deplasat robotul nostru.
-Encoderele nu sunt folosite doar în cazul localizării robotului.  </p>
+Encoderele nu sunt folosite doar în cazul localizării robotului.</p>
 <p>Ele pot fi folosite și pentru a determina cât de mult s-a extins un lift, folosind rotația motorului de exemplu. Encoderele
 îți permit să cunoști starea în care se află un mecanism. Există 2 tipuri principale de
 encoder:</p>
@@ -2031,7 +2031,7 @@ encoder:</p>
 <h4 id="camere"><strong>Camere</strong></h4>
 <p>Un element nelipsit din jocurile FTC este utilizarea de computer vision folosind o cameră.
 Aceasta poate fi folosită pentru detectarea unor elemente specifice perioadei de autonomie,
-sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate.  </p>
+sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate.</p>
 <p>De asemenea, pe marginile terenului se mai află niște imagini, similare cu niște coduri QR,
 numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">april tag-uri</a>.
 Folosind biblioteca incorporată de computer vision, este foarte ușor să obținem
@@ -2096,6 +2096,9 @@ protocoale, astfel încetinind viteza codului robotului. Din această cauză, ar
 pe cât posibil senzorii I²C.</p>
 <h4 id="imu"><strong><abbr title="Inertial Measurement Unit">IMU</abbr></strong></h4>
 <p><abbr title="Inertial Measurement Unit">IMU</abbr> este un modul ce permite măsurarea orientării față de cele 3 axe ale sistemului tridimensional, dar și alți parametrii precum accelerația și viteza pe fiecare axă. Un astfel de <abbr title="Inertial Measurement Unit">IMU</abbr> este integrat în <a href="#control-hub-si-expansion-hub">Control Hub</a>, însă trebuie ținut cont că acesta folosește protocolul I²C.</p>
+<!--prettier-ignore-start-->
+<!--prettier-ignore-end-->
+
 <p>Există, de asemenea, alte 2 produse foarte interesante ce conțin un <abbr title="Inertial Measurement Unit">IMU</abbr>:</p>
 <ul>
 <li><a href="https://www.gobilda.com/pinpoint-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/?srsltid=AfmBOooDG4LzVG8dq8ChpTcGNVmskizohiltAPpMYJrZsK2mI4I72jBq" target="_blank">Pinpoint</a> - un calculator care, folosind 2 roți ce măsoară deplasarea robotului și un <abbr title="Inertial Measurement Unit">IMU</abbr>
@@ -2156,21 +2159,24 @@ curent de până la 20A.</p>
 </div>
 
 <p>Pentru a avea un robot fiabil, este important să avem grijă la consumul de curent al
-robotului în orice scenariu.  </p>
+robotului în orice scenariu.</p>
 <p>Un consum prea mare de curent la un moment dat, poate duce la <abbr title="Stingerea pentru o fracțiune de secundă a electronicii, întrerupând comunicarea cu driver station-ul și oprind mecanismele">brownout</abbr>. În general, un robot alimentează
 constant și simultan cel puțin 6 motoare care suferă forțe relevante, ducând la un consum
-minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A.  </p>
+minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A.</p>
 <p>Astfel, trebuie implementate soluții mecanice pentru a mai reduce din acest consum, fie prin
 alegerea unor rații mai "conservative" ale motoarelor în cadrul mecanismelor, fie folosind
-counter-springing pentru a reduce din forța aplicată asupra actuatoarelor.   </p>
+counter-springing pentru a reduce din forța aplicată asupra actuatoarelor.</p>
 <p>Un alt parametru care afectează consumul de curent este rezistența internă a bateriei.
 <a href="https://www.gobilda.com/12v-battery-health-analyzer-nimh-3000mah/" target="_blank">Analizorul de sănătate a bateriei</a> ne permite măsurarea
 acesteia. O rezistență internă mai mică, permite robotului să tragă mai mult curent din
 baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și bugetarea acestuia.</p>
+<!--prettier-ignore-start-->
+<!--prettier-ignore-end-->
+
 <h4 id="servo-power-module-si-servo-hub"><strong>Servo Power Module și Servo Hub</strong></h4>
 <p>Servo Power Module și Servo Hub sunt două componente de electronică ce permit
 alimentarea a 6 servo-uri cu 6V, în loc de cei 5V furnizați de Control Hub și de Expansion
-Hub.  </p>
+Hub.</p>
 <p>Principalul beneficiu al lor este creșterea specificațiilor de viteză și cuplu ale
 servo-urilor, oferind un bonus de performanță cu costul a unui consum de curent puțin
 mai mare.</p>
@@ -2198,9 +2204,12 @@ mai mare.</p>
   iar de exemplu servo-urile Axon și Plex care definesc această categorie au consumul
   maxim de câte 4A fiecare, astfel fiind limitat la alimentarea a 4 servo-uri în loc de
   maximul de 6.<br />
-  Aceasta nu este neapărat o problemă, deoarece consumul acestor servo-uri nu va atinge în mod realist 4A vreodată, 
+  Aceasta nu este neapărat o problemă, deoarece consumul acestor servo-uri nu va atinge în mod realist 4A vreodată,
   însă este recomandat să tratăm totul ca în cazul extrem, pentru a evita apariția de defecțiuni foarte ușoare de prevenit.</li>
 </ul>
+<!--prettier-ignore-start-->
+<!--prettier-ignore-end-->
+
 <p>Servo Hub-ul a venit ca o îmbunătățire asupra <abbr title="Servo Power Module">SPM</abbr>-ului, rezolvând problemele de scurt
 circuitare, simplificând procesul de cablare și aducând alte câteva feature-uri de finețe.
 Curentul maxim este tot de 15A, însă după cum am spus, nu este o problemă în adevăratul
@@ -2240,7 +2249,7 @@ sens al cuvântului, doar o limitare care ar trebui respectată.</p>
       <nav class="md-footer__inner md-grid" aria-label="Subsol" >
         
           
-          <a href="../vendors/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Furnizori principali">
+          <a href="../mechanical/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Componentele mecanice">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2250,20 +2259,20 @@ sens al cuvântului, doar o limitare care ar trebui respectată.</p>
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Furnizori principali
+                Componentele mecanice
               </div>
             </div>
           </a>
         
         
           
-          <a href="../tools-and-fasteners/" class="md-footer__link md-footer__link--next" aria-label="Următor: Hardware și unelte">
+          <a href="../mechanisms/" class="md-footer__link md-footer__link--next" aria-label="Următor: Mecanisme des întâlnite">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Următor
               </span>
               <div class="md-ellipsis">
-                Hardware și unelte
+                Mecanisme des întâlnite
               </div>
             </div>
             <div class="md-footer__button md-icon">

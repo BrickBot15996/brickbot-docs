@@ -22,7 +22,7 @@ FTC, acestea sunt de 2 feluri:
 <!--prettier-ignore-start-->
 ??? note "Notă"
     După cum puteți observa, cei doi termeni sunt precedați de `@`, ceea ce
-    înseamnă ca sunt <a href="/programming/java/#annotari" target="_blank">annotări</a>.
+    înseamnă ca sunt <a href="./programming/java/#annotari" target="_blank">annotări</a>.
 <!--prettier-ignore-end-->
 
 Pentru a declara un OpMode, trebuie să ne folosim de conceptul de moștenire. În

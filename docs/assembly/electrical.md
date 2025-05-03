@@ -3,7 +3,7 @@
 ## **La ce ne referim prin componente electronice?**
 
 Componentele electronice reprezintă o gamă destul de largă de produse. În primul rând, este
-vorba despre actuatoare (motoare și servomotoare), mai exact _mașinării_ ce produc mișcare.  
+vorba despre actuatoare (motoare și servomotoare), mai exact _mașinării_ ce produc mișcare.
 
 În al doilea rând, este vorba despre senzorii folosiți pentru ca robotul să poată _înțelege_
 mediul înconjurător. Nu în ultimul rând, ne referim la sistemul de control, cel care face
@@ -57,11 +57,11 @@ funcționează de fapt motoarele.
 </div>
 
 Acest grafic ilustrează evoluția puterii unui motor, cu cât este aplicată mai multă forță pe
-el, până la maximul pe care îl poate duce.  
+el, până la maximul pe care îl poate duce.
 
-Cifrele pentru RPM și cuplu nu sunt de la sine relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor. 
+Cifrele pentru RPM și cuplu nu sunt de la sine relevante, deoarece acestea se schimbă odată cu rația aplicată pe motor.
 Ce este cel mai important de ținut cont, este faptul că motorul produce cea mai mare putere la jumătate din
-cuplul său maxim.  
+cuplul său maxim.
 
 Concluzia care trebuie trasă de aici este că, pentru un mecanism care
 vrem să ruleze la potențial maxim, rația optimă este cea care oferă cuplu dublu față de
@@ -83,7 +83,7 @@ scop sunt:
 
 - **Evitarea direct drive** - direct drive înseamnă atașarea mecanismului pe care îl
   angrenează direct pe axul motorului.  
-  Această practică expune motorului la daune interne, dar și la îndoirea axului în cazul în 
+  Această practică expune motorului la daune interne, dar și la îndoirea axului în cazul în
   care sunt aplicate în mod direct șocuri pe acesta. Alternativa constă în folosirea de transmisii externe despre care vom discuta
   în secțiunea următoare.
 - **Gestionarea consumului de curent** - consumul de curent crește odată cu forța aplicată
@@ -165,12 +165,12 @@ vorba de perioada de autonomie sau cea de teleoperare.
 
 Pentru perioada de autonomie, aspectul cel mai important este localizarea. În acest sens,
 există niște senzori ce poartă numele de encoder. Scopul lor este măsurarea poziției de
-rotație.  
+rotație.
 
 La ce ne poate folosi acest lucru? De exemplu, în cazul localizării, folosim o roată
 care merge de-a lungul terenului odată cu robotul. Dacă știm câte unități s-a rotit această
 roată, putem face conversia în cm pentru a afla cât de mult s-a deplasat robotul nostru.
-Encoderele nu sunt folosite doar în cazul localizării robotului.  
+Encoderele nu sunt folosite doar în cazul localizării robotului.
 
 Ele pot fi folosite și pentru a determina cât de mult s-a extins un lift, folosind rotația motorului de exemplu. Encoderele
 îți permit să cunoști starea în care se află un mecanism. Există 2 tipuri principale de
@@ -200,7 +200,7 @@ encoder:
 
 Un element nelipsit din jocurile FTC este utilizarea de computer vision folosind o cameră.
 Aceasta poate fi folosită pentru detectarea unor elemente specifice perioadei de autonomie,
-sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate.  
+sau pentru detectarea elementelor de joc pentru a fi colectate eficient și punctate.
 
 De asemenea, pe marginile terenului se mai află niște imagini, similare cu niște coduri QR,
 numite <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">april tag-uri</a>.
@@ -273,7 +273,9 @@ pe cât posibil senzorii I²C.
 
 IMU este un modul ce permite măsurarea orientării față de cele 3 axe ale sistemului tridimensional, dar și alți parametrii precum accelerația și viteza pe fiecare axă. Un astfel de IMU este integrat în <a href="#control-hub-si-expansion-hub">Control Hub</a>, însă trebuie ținut cont că acesta folosește protocolul I²C.
 
+<!--prettier-ignore-start-->
 *[IMU]: Inertial Measurement Unit
+<!--prettier-ignore-end-->
 
 Există, de asemenea, alte 2 produse foarte interesante ce conțin un IMU:
 
@@ -342,28 +344,30 @@ curent de până la 20A.
 </div>
 
 Pentru a avea un robot fiabil, este important să avem grijă la consumul de curent al
-robotului în orice scenariu.  
+robotului în orice scenariu.
 
 Un consum prea mare de curent la un moment dat, poate duce la brownout. În general, un robot alimentează
 constant și simultan cel puțin 6 motoare care suferă forțe relevante, ducând la un consum
-minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A.  
+minim de curent deja destul de ridicat, luând în calcul bugetul maxim de 20A.
 
 Astfel, trebuie implementate soluții mecanice pentru a mai reduce din acest consum, fie prin
 alegerea unor rații mai "conservative" ale motoarelor în cadrul mecanismelor, fie folosind
-counter-springing pentru a reduce din forța aplicată asupra actuatoarelor.   
+counter-springing pentru a reduce din forța aplicată asupra actuatoarelor.
 
 Un alt parametru care afectează consumul de curent este rezistența internă a bateriei.
 <a href="https://www.gobilda.com/12v-battery-health-analyzer-nimh-3000mah/" target="_blank">Analizorul de sănătate a bateriei</a> ne permite măsurarea
 acesteia. O rezistență internă mai mică, permite robotului să tragă mai mult curent din
 baterie. Această <a href="https://blog.eeshwark.com/robotblog/electrical-ramblings" target="_blank">postare</a> conține și o secțiune despre consumul de curent și bugetarea acestuia.
 
+<!--prettier-ignore-start-->
 *[brownout]: Stingerea pentru o fracțiune de secundă a electronicii, întrerupând comunicarea cu driver station-ul și oprind mecanismele
+<!--prettier-ignore-end-->
 
 #### **Servo Power Module și Servo Hub**
 
 Servo Power Module și Servo Hub sunt două componente de electronică ce permit
 alimentarea a 6 servo-uri cu 6V, în loc de cei 5V furnizați de Control Hub și de Expansion
-Hub.  
+Hub.
 
 Principalul beneficiu al lor este creșterea specificațiilor de viteză și cuplu ale
 servo-urilor, oferind un bonus de performanță cu costul a unui consum de curent puțin
@@ -393,10 +397,12 @@ mai mare.
   iar de exemplu servo-urile Axon și Plex care definesc această categorie au consumul
   maxim de câte 4A fiecare, astfel fiind limitat la alimentarea a 4 servo-uri în loc de
   maximul de 6.  
-  Aceasta nu este neapărat o problemă, deoarece consumul acestor servo-uri nu va atinge în mod realist 4A vreodată, 
+  Aceasta nu este neapărat o problemă, deoarece consumul acestor servo-uri nu va atinge în mod realist 4A vreodată,
   însă este recomandat să tratăm totul ca în cazul extrem, pentru a evita apariția de defecțiuni foarte ușoare de prevenit.
 
+<!--prettier-ignore-start-->
 *[SPM]: Servo Power Module
+<!--prettier-ignore-end-->
 
 Servo Hub-ul a venit ca o îmbunătățire asupra SPM-ului, rezolvând problemele de scurt
 circuitare, simplificând procesul de cablare și aducând alte câteva feature-uri de finețe.
