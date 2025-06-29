@@ -15,11 +15,11 @@ Dacă un jurat este acolo pentru a vorbi despre robot, nu le irosiți timpul cu 
 În mod similar, dacă un jurat vă întreabă despre activitățile voastre în comunitate, nu deviați spre a vorbi despre robot. Jurații sunt acolo cu un scop specific, alte informații pot fi esențial ignorate de ei.
 
 !!! danger "Important"
-    Când jurații se apropie de standurile voastre, ridicați-vă în picioare și puneți telefoanele jos. Membrii neinteresați pot face ca opinia unui jurat despre echipa voastră să se deterioreze rapid. Toți elevii ar trebui să încerce să pară interesați și să participe, implicați cât mai multe persoane diferite în conversație.
+    Când jurații se apropie de standurile voastre, ridicați-vă în picioare și puneți telefoanele jos. Membrii neinteresați pot face ca opinia unui jurat despre echipa voastră să se deterioreze. Toți elevii ar trebui să fie interesați și să participe, implicați cât mai multe persoane diferite în conversație.
 
 ## **Sfaturi pentru jurizarea de la standuri**
 
-- Jurații au timp limitat, nu-l irosiți! 
+- Jurații au timp limitat, nu-l irosiți.
 
 - Aveți un portofoliu sau un caiet pregătit pentru referințe rapide, după cum este necesar.
 

@@ -29,6 +29,7 @@ plugins:
         background_color: "#ffd100"
         color: black
         font_family: Inter
+  - search
 
 theme:
   name: material
@@ -118,9 +119,11 @@ nav:
       - Alte resurse: programming/other-resources.md
   - Portofoliul Inginerului:
       - Introducere: portfolio/introduction.md
-      - Non-Tehnic: portfolio/non-technical.md
-      - Tehnic: portfolio/technical.md
+      - Non-Tehnic: portfolio/non-technical-portfolio.md
+      - Tehnic: portfolio/technical-portfolio.md
   - Procesul de Jurizare:
       - Sfaturi Generale: judging/tips.md
       - Discursul: judging/presentation.md
       - Jurizarea de la stand: judging/pit.md
+  - Resurse:
+      - Resurse: resources/resources.md

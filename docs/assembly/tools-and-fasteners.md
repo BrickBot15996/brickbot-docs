@@ -150,14 +150,14 @@ specifice ale șaibelor sunt:
 Până la urmă, decizia de nume este subiectivă și irelevantă, este important să înțelegem când
 și ce trebuie să folosim.
 
-#### **Șoricei**
+#### **Bandă zimțată (Zip-Tie sau "șoricei")**
 
-Șoriceii sau Zip-Ties sunt un mod foarte bun de a prinde componente care nu suferă forțe importante
+Benzile zimțate sau Zip-Ties sunt un mod foarte bun de a prinde componente care nu suferă forțe importante
 și nu trebuie să fie prinse precis. Cel mai des le vom folosi la fixarea cablurilor.
 
 <div style="display: grid; place-items: center;">
-  <img src="../media/zip-tie.png" alt="Șoricel" width="40%">
-  <p><strong>Șoricel</strong></p>
+  <img src="../media/zip-tie.png" alt="Zip-Tie" width="40%">
+  <p><strong>Bandă zimțată/Zip-Tie</strong></p>
 </div>
 
 <hr>

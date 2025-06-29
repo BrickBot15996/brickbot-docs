@@ -41,7 +41,7 @@ de pagini (se poate ajunge la 100+ de pagini!).
 **Engineering Portfolio** este o sinteză a Notebook-ului, destinată jurizării și evaluării.
 
 <!--prettier-ignore-start-->
-!!! note "De ce e bine să concepi un Engineering Notebook"
+!!! note "Engineering Notebook"
     Chiar dacă Engineering Notebook-ul nu este o necesitate, este recomandat ca o echipă
     să-l aibă.
 <!--prettier-ignore-end-->
