@@ -40,7 +40,7 @@
   --md-default-fg-color: #000000;
   --md-default-fg-color--light: #000000;
   /* --md-default-fg-color--lighter: red; */
-  --md-default-fg-color--lightest: #303030;
+  --md-default-fg-color--lightest: rgb(201, 201, 201);
   --md-default-bg-color: #ffffff;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
