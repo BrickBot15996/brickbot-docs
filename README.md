@@ -73,14 +73,18 @@ Poți clona repo-ul folosind GitHub Desktop sau Git.
 Rulează următoarea comandă în directorul proiectului pentru a instala MkDocs și tema Material:
 
 ```sh
-pip install -r requirements.txt
-```
-
-Dacă `requirements.txt` lipsește, instalează manual:
-
-```sh
 pip install mkdocs mkdocs-material
 ```
+
+sau
+
+```sh
+python -m pip install mkdocs mkdocs-material
+```
+
+**Dacă încă mai ai probleme, întreabă-l pe ChatGPT! Pip e extrem de enervant.**
+
+De asemenea, urmeaza tutorialul de [aici](https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/#cairo-graphics-windows) pentru a instala celelalte dependențe.
 
 ## Rularea proiectului local
 
