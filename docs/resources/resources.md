@@ -31,6 +31,8 @@ hide:
 - <a href="https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler" target="_blank">Mediu de dezvoltare online Java</a>
 - <a href="https://www.w3schools.com/java/" target="_blank">Java Features</a>
 - <a href="https://refactoring.guru/design-patterns" target="_blank">Design Patterns Java</a>
+- <a href="https://www.youtube.com/watch?v=xTtL8E4LzTQ" target="_blank">Tutorial Java</a>
+- <a href="https://ocw.cs.pub.ro/courses/poo-ca-cd" target="_blank">Resurse Java UPB - Citiți laboratoarele</a>
 - <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>
 - <a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">FTC Software Development Kit</a>
 - <a href="https://gm0.org/en/latest/docs/software/getting-started/index.html" target="_blank">Introducere în Java pentru FTC</a>
@@ -47,10 +49,10 @@ hide:
 - <a href="https://pedropathing.com/" target="_blank">Pedro Pathing</a>
 - <a href="https://rr.brott.dev/docs/v1-0/installation/" target="_blank">Roadrunner</a>
 - <a href="https://wpilib.org/" target="_blank">WPILib - Biblioteca de bază în FRC</a>
-<!-- - <a href="" target="_blank">SimplicityFTC</a> -->
 - <a href="https://gm0.org/en/latest/docs/software/tutorials/vision.html" target="_blank">Computer Vision</a>
 - <a href="https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html" target="_blank">Introducere April Tag-uri</a>
 - <a href="https://cookbook.dairy.foundation/introduction.html" target="_blank">The Cookbook</a>
+<!-- - <a href="" target="_blank">SimplicityFTC</a> -->
 
 ## **Non-tehnic**
 
