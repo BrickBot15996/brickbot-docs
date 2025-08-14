@@ -30,7 +30,7 @@ La momentul actual, avem la dispoziție următoarele imprimante:
 
  <div>
    <img src="../media/bambu-a1mini.png" alt="BambuLab A1 Mini" width="100%">
-   <p style="text-align:center"><strong>1 x BambuLab A1 Mini</strong></p>
+   <p style="text-align:center"><strong>2 x BambuLab A1 Mini</strong></p>
  </div>
 
  <div>
