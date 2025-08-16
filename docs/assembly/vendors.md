@@ -5,8 +5,9 @@ de la următorii furnizori:
 
 - <a href="https://www.gobilda.com/" target="_blank">Gobilda</a>: piese mecanice și actuatoare
 - <a href="https://www.revrobotics.com/" target="_blank">REV Robotics</a>: sistemul de control
-- <a href="https://www.andymark.com/" target="_blank">AndyMark</a>: terenul de joc
+- <a href="https://up-robotics.com/store/" target="_blank">Up-Robotics</a>: reseller local FTC
 - <a href="https://plexrobotics.com/en" target="_blank">Plex Robotics</a>: reseller din România pentru mulți furnizori
+- <a href="https://www.andymark.com/" target="_blank">AndyMark</a>: terenul de joc
 - <a href="https://axon-robotics.com/en-ro" target="_blank">Axon Robotics</a>: servo-uri
 - <a href="https://ro.misumi-ec.com/" target="_blank">Misumi</a>: glisiere
 - <a href="https://powerbelt.ro/ro" target="_blank">Powerbelt</a>: curele de transmisie
