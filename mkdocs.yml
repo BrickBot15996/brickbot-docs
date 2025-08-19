@@ -119,8 +119,8 @@ nav:
       - Alte resurse: programming/other-resources.md
   - Portofoliul Inginerului:
       - Introducere: portfolio/introduction.md
-      - Non-Tehnic: portfolio/non-technical-portfolio.md
-      - Tehnic: portfolio/technical-portfolio.md
+      - Non-Tehnic: portfolio/non-technical.md
+      - Tehnic: portfolio/technical.md
   - Procesul de Jurizare:
       - Sfaturi Generale: judging/tips.md
       - Discursul: judging/presentation.md

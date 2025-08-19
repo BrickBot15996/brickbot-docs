@@ -27,7 +27,7 @@ Acest site funcționează **nu doar ca un ghid**, ci și ca **o documentație** 
  
      Descoperă o comunitate mare de pasionați de robotică.
  
-     [:octicons-arrow-right-24: Ce este FTC?](intro/about-ftc.md)
+     [:octicons-arrow-right-24:](intro/about-ftc.md) [Ce este FTC?](intro/about-ftc.md)
  
  -   :fontawesome-solid-cube:{ .lg .middle } __Proiectare 3D__
  
@@ -35,7 +35,7 @@ Acest site funcționează **nu doar ca un ghid**, ci și ca **o documentație** 
  
      Învață cum să modelezi robotul înainte de a-l construi.
  
-     [:octicons-arrow-right-24: Proiectarea 3D](cad/cad.md)
+     [:octicons-arrow-right-24:](cad/cad.md) [Proiectare 3D](cad/cad.md)
  
  -   :material-hammer-wrench:{ .lg .middle } __Mecanica__
  
@@ -43,7 +43,7 @@ Acest site funcționează **nu doar ca un ghid**, ci și ca **o documentație** 
  
      Construiește un robot fiabil, gata să facă față oricărei provocări.
  
-     [:octicons-arrow-right-24: Mecanică](assembly/vendors.md)
+     [:octicons-arrow-right-24:](assembly/vendors.md) [Mecanică](assembly/vendors.md)
  
  -   :octicons-code-16:{ .lg .middle } __Programare__
  
@@ -51,22 +51,31 @@ Acest site funcționează **nu doar ca un ghid**, ci și ca **o documentație** 
  
      Scrie codul care va da viață robotului.
  
-     [:octicons-arrow-right-24: Programare](programming/java.md)
+     [:octicons-arrow-right-24:](programming/java.md) [Portfolio](programming/java.md)
  
- -   :material-book-cog:{ .lg .middle } __Portofoliul Inginerului__
+ -   :material-book-cog:{ .lg .middle } __Engineering Portfolio__
  
      ---
  
      Prezintă concis robotul, planurile echipei și activitățile de outreach ale echipei dintr-un sezon.
  
-     [:octicons-arrow-right-24: Portofoliul Inginerului](portfolio/introduction.md)
+     [:octicons-arrow-right-24:](portfolio/introduction.md) [Engineering Portfolio](judging/tips.md)
  
- -   :fontawesome-solid-trophy:{ .lg .middle } __Procesul de Jurizare__
+ -   :fontawesome-solid-trophy:{ .lg .middle } __Procesul de jurizare__
  
      ---
  
      Află ce caută juriul și cum să îți pui în valoare munca.
  
-     [:octicons-arrow-right-24: Procesul de Jurizare](judging/tips.md)
+     [:octicons-arrow-right-24:](judging/tips.md) [Procesul de jurizare](judging/tips.md)
+
+ -   :fontawesome-solid-book-bookmark:{ .lg .middle } __Resurse__
+ 
+     ---
+ 
+     Aici găsești principalele resurse care te vor ajuta în FTC.
+ 
+     [:octicons-arrow-right-24:](resources/resources.md) [Resurse](resources/resources.md)
+
  <!--prettier-ignore-end-->
  </div>
