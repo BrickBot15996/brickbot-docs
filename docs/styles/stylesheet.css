@@ -119,7 +119,7 @@
   }
 
   .md-nav__title[for="__toc"] {
-    color: #ffd100 !important;
+    color: #ffff00 !important;
   }
 
   .md-nav__title[for="__nav_0"],
@@ -179,7 +179,7 @@
 
   --md-typeset-color: #dadada;
 
-  --md-typeset-a-color: #ffd100;
+  --md-typeset-a-color: #ffff00;
 
   /* --md-typeset-del-color: red; */
   /* --md-typeset-ins-color: hsla(150, 90%, 44%, 0.15); */
